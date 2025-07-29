@@ -1,6 +1,6 @@
 ---
-title: "Pixel Perfect Websites | Code Stitch Web Designs | Denver, CO"
-description: "Meta description for the page"
+title: "Hand-Coded Web Design in Atlanta, GA | CodeStitch"
+description: "Is your business invisible online or held back by a slow template site? CodeStitch is a top-rated web design agency in Atlanta, GA specializing in ultra-fast, secure, hand-coded websites that attract customers. Schedule your free 30-minute consultation today!"
 permalink: "/"
 tags: "sitemap" # content/content.json will make sure that all pages in content/ are marked with a "sitemap" tag, for automatic sitemap generation. As index.html is not in content/, we need to add it here to ensure the root page is included in the sitemap generation
 ---
@@ -36,12 +36,12 @@ tags: "sitemap" # content/content.json will make sure that all pages in content/
 <section id="hero-1350">
     <div class="cs-container">
         <div class="cs-content">
-            <span class="cs-topper">Welcome To Stitch Agency</span>
-            <h1 class="cs-title">Small Business Web Design & Development</h1>
+            <span class="cs-topper">Welcome To Atlanta Webdesign</span>
+            <h1 class="cs-title">Atlanta's Premier Web Design Agency for Small Business</h1>
             <p class="cs-text">
-                No page builders or WordPress - We offer superior 100% hand-coded websites with starting at $150/mo.
+                We don't use page builders or WordPress. We provide superior 100% hand-coded websites, delivering unmatched speed, security, and SEO performance.
             </p>
-            <a href="" class="cs-button-solid">Free Consultation</a>
+            <a href="" class="cs-button-solid">Schedule a Free Consultation</a>
         </div>
     </div>
     <!--Bubble Groups-->
@@ -49,10 +49,21 @@ tags: "sitemap" # content/content.json will make sure that all pages in content/
     <div class="cs-bubbles cs-bubbles2" aria-hidden="true"></div>
     <!-- Background Image, background image added in the css at 1600px for parallax effect -->
     <picture class="cs-background">
-        <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/abstract-m.jpg">
-        <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/abstract.jpg">
-        <img decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/abstract.jpg" alt="abstract background" width="2250" height="1500" aria-hidden="true">
-    </picture>
+        <!--Mobile Image-->
+        <source media="(max-width: 600px)" srcset="{% getUrl '/assets/images/JPG/abstractLight.png' | avif %}" type="image/avif">
+        <source media="(max-width: 600px)" srcset="{% getUrl '/assets/images/JPG/abstractLight.png' | webp %}" type="image/webp">
+        <source media="(max-width: 600px)" srcset="{% getUrl '/assets/images/JPG/abstractLight.png' | jpeg %}" type="image/jpeg">
+        <!--Tablet Image-->
+        <source media="(min-width: 1024px)" srcset="{% getUrl '/assets/images/JPG/abstractLight.png' | avif %}" type="image/avif">
+        <source media="(min-width: 1024px)" srcset="{% getUrl '/assets/images/JPG/abstractLight.png' | webp %}" type="image/webp">
+        <source media="(min-width: 1024px)" srcset="{% getUrl '/assets/images/JPG/abstractLight.png' | jpeg %}" type="image/jpeg">
+        <!--Desktop Image-->
+        <source media="(min-width: 1024px)" srcset="{% getUrl '/assets/images/JPG/abstractLight.png'| avif %}" type="image/avif">
+        <source media="(min-width: 1024px)" srcset="{% getUrl '/assets/images/JPG/abstractLight.png'| webp %}" type="image/webp">
+        <source media="(min-width: 1024px)" srcset="{% getUrl '/assets/images/JPG/abstractLight.png'| jpeg %}" type="image/jpeg">
+        <img src="{% getUrl '/assets/images/JPG/abstractLight.png' | resize({ width:2250, height: 1500 }) | jpeg %}" alt="library" width="2250" height="1500" loading="lazy" decoding="async">
+
+        </picture>
 </section>
 <!-- ============================================ -->
 <!--                  Services                    -->
@@ -62,10 +73,10 @@ tags: "sitemap" # content/content.json will make sure that all pages in content/
     <div class="cs-container">
         <!-- Left Content Section-->
         <div class="cs-content">
-            <span class="cs-topper">Our Service</span>
-            <h2 class="cs-title">What We Provide To Our Customer</h2>
+            <span class="cs-topper">What we offer</span>
+            <h2 class="cs-title">Our Web Design Services for Atlanta Businesses</h2>
             <p class="cs-text">
-                Designed to maintain your current colour, blend out a growing root or balance your blonde while providing full and demi-permanent coverage.
+                Designed to give your business a competitive edge, grow your customer base, and establish a professional online presence that converts.
             </p>
         </div>
         <ul class="cs-card-group">
@@ -73,9 +84,9 @@ tags: "sitemap" # content/content.json will make sure that all pages in content/
                 <picture class="cs-icon-wrapper">
                     <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/trees-white.svg" alt="hair cut" width="40" height="40">
                 </picture>
-                <h3 class="cs-h3">Body Treatment</h3>
+                <h3 class="cs-h3">Mobile-First Responsive Design</h3>
                 <p class="cs-item-text">
-                    Blanket term for a whole gamut of different holistic, non-medical, physical procedures aimed at helping you achieve
+                    The majority of your customers will find you on their phone. We design for mobile first, ensuring a flawless experience on any device—from smartphones and tablets to desktops.
                 </p>
                 <a href="" class="cs-link">Read More</a>
                 <!--Background Image-->
@@ -87,9 +98,9 @@ tags: "sitemap" # content/content.json will make sure that all pages in content/
                 <picture class="cs-icon-wrapper">
                     <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/trees-white.svg" alt="hair cut" width="40" height="40">
                 </picture>
-                <h3 class="cs-h3">Hair Care</h3>
+                <h3 class="cs-h3">Unlimited Edits & Maintenance</h3>
                 <p class="cs-item-text">
-                    Blanket term for a whole gamut of different holistic, non-medical, physical procedures aimed at helping you achieve
+                    Your business evolves, and your website should too. We offer monthly plans that includes ongoing website maintenance and unlimited small edits, ensuring your site is always secure, updated, and accurate.
                 </p>
                 <a href="" class="cs-link">Read More</a>
                 <!--Background Image-->
@@ -101,9 +112,9 @@ tags: "sitemap" # content/content.json will make sure that all pages in content/
                 <picture class="cs-icon-wrapper">
                     <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/trees-white.svg" alt="hair cut" width="40" height="40">
                 </picture>
-                <h3 class="cs-h3">Make Up</h3>
+                <h3 class="cs-h3">Custom Hand-Coded Websites</h3>
                 <p class="cs-item-text">
-                    Blanket term for a whole gamut of different holistic, non-medical, physical procedures aimed at helping you achieve
+                    We build your website from the ground up with clean, efficient code. This means no template bloat, just a lightning-fast, fully custom design tailored to your brand and your customers.
                 </p>
                 <a href="" class="cs-link">Read More</a>
                 <!--Background Image-->
@@ -115,9 +126,9 @@ tags: "sitemap" # content/content.json will make sure that all pages in content/
                 <picture class="cs-icon-wrapper">
                     <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/trees-white.svg" alt="hair cut" width="40" height="40">
                 </picture>
-                <h3 class="cs-h3">Nail Art</h3>
+                <h3 class="cs-h3">SEO Services</h3>
                 <p class="cs-item-text">
-                    Blanket term for a whole gamut of different holistic, non-medical, physical procedures aimed at helping you achieve
+                    Our SEO service perfects the technical foundation we build. We perform an in-depth analysis of your site and implement critical on-page optimizations, from strategic keyword placement in titles and headings to local schema markup, ensuring Google ranks you for what matters.
                 </p>
                 <a href="" class="cs-link">Read More</a>
                 <!--Background Image-->
@@ -129,9 +140,9 @@ tags: "sitemap" # content/content.json will make sure that all pages in content/
                 <picture class="cs-icon-wrapper">
                     <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/trees-white.svg" alt="hair cut" width="40" height="40">
                 </picture>
-                <h3 class="cs-h3">Beauty Products</h3>
+                <h3 class="cs-h3">Targeted Google Ad Campaigns</h3>
                 <p class="cs-item-text">
-                    Blanket term for a whole gamut of different holistic, non-medical, physical procedures aimed at helping you achieve
+                    Need leads right now? We can design and manage targeted Google Ad campaigns that place your business in front of customers at the exact moment they're searching for your services. It's the perfect way to generate immediate traffic and measure your ROI.
                 </p>
                 <a href="" class="cs-link">Read More</a>
                 <!--Background Image-->
@@ -143,9 +154,9 @@ tags: "sitemap" # content/content.json will make sure that all pages in content/
                 <picture class="cs-icon-wrapper">
                     <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/trees-white.svg" alt="hair cut" width="40" height="40">
                 </picture>
-                <h3 class="cs-h3">Spa Massage</h3>
+                <h3 class="cs-h3">Local Atlanta-Based Development</h3>
                 <p class="cs-item-text">
-                    Blanket term for a whole gamut of different holistic, non-medical, physical procedures aimed at helping you achieve
+                    Your project will never be outsourced. All design, development, and support are handled directly by our team right here in the Metro Atlanta area. This guarantees clear communication, direct accountability, and a partner who understands your local market.
                 </p>
                 <a href="" class="cs-link">Read More</a>
                 <!--Background Image-->
@@ -171,18 +182,26 @@ tags: "sitemap" # content/content.json will make sure that all pages in content/
     <div class="cs-container">
         <picture class="cs-picture">
             <!--Mobile Image-->
-            <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/people9.jpg">
-            <!--Tablet and above Image-->
-            <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/people9.jpg">
-            <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/people9.jpg" alt="people" width="586" height="690">
+            <source media="(max-width: 600px)" srcset="{% getUrl '/assets/images/JPG/Typing.jpg' | resize({ width:576, height:576 })  | avif %}" type="image/avif">
+            <source media="(max-width: 600px)" srcset="{% getUrl '/assets/images/JPG/Typing.jpg' | resize({ width:576, height:576 }) | webp %}" type="image/webp">
+            <source media="(max-width: 600px)" srcset="{% getUrl '/assets/images/JPG/Typing.jpg' | resize({ width:576, height:576 }) | jpeg %}" type="image/jpeg">
+            <!--Tablet Image-->
+            <source media="(min-width: 1024px)" srcset="{% getUrl '/assets/images/JPG/Typing.jpg' | resize({ width: 1138 , height: 800}) | avif %}" type="image/avif">
+            <source media="(min-width: 1024px)" srcset="{% getUrl '/assets/images/JPG/Typing.jpg' | resize({ width: 1138 , height: 800}) | webp %}" type="image/webp">
+            <source media="(min-width: 1024px)" srcset="{% getUrl '/assets/images/JPG/Typing.jpg' | resize({ width: 1138 , height: 800}) | jpeg %}" type="image/jpeg">
+            <!--Desktop Image-->
+            <source media="(min-width: 1024px)" srcset="{% getUrl '/assets/images/JPG/Typing.jpg' | resize({ width: 869 , height:1036}) | avif %}" type="image/avif">
+            <source media="(min-width: 1024px)" srcset="{% getUrl '/assets/images/JPG/Typing.jpg' | resize({ width: 869 , height:1036}) | webp %}" type="image/webp">
+            <source media="(min-width: 1024px)" srcset="{% getUrl '/assets/images/JPG/Typing.jpg' | resize({ width: 869 , height:1036}) | jpeg %}" type="image/jpeg">
+            <img src="{% getUrl '/assets/images/JPG/Typing.jpg' | resize({ width:586, height: 690 }) | jpeg %}" alt="library" width="586" height="690" loading="lazy" decoding="async">
         </picture>
         <div class="cs-content">
-            <span class="cs-topper">Our Features</span>
-            <h2 class="cs-title">Care That Transforms Lives</h2>
+            <span class="cs-topper">The CodeStitch Advantage</span>
+            <h2 class="cs-title">An Unfair Advantage for Your Business</h2>
             <p class="cs-text">
-                Our mission goes beyond conversation; we aim to empower you to progress with purpose, insight, and empathy. Together, we’ll navigate your journey, ensuring you feel supported and understood every step of the way.
+                In a market full of slow, generic template websites, quality is the ultimate advantage. We are dedicated to providing a superior digital foundation for your business, built on three core principles: unparalleled performance, airtight security, and a personal partnership you won't find anywhere else.
             </p>
-            <a href="" class="cs-button-solid">Start Your Journey Today</a>
+            <a href="" class="cs-button-solid">Discover Our Process</a>
         </div>
     </div>
 </section>
@@ -196,30 +215,30 @@ tags: "sitemap" # content/content.json will make sure that all pages in content/
         <ul class="cs-card-group">
             <li class="cs-item">
                 <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/therapy1.svg" alt="icon" width="120" height="120">
-                <h3 class="cs-h3">Licensed Expertise</h3>
+                <h3 class="cs-h3">100% secure</h3>
                 <p class="cs-item-text">
-                    Our therapists specialize in trauma and emotional wellness.
+                    We build static websites, which eliminates the common hacking and plugin vulnerabilities found in systems like WordPress. Your business and customer data are secure with us.
                 </p>
             </li>
             <li class="cs-item">
                 <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/therapy2.svg" alt="icon" width="120" height="120">
-                <h3 class="cs-h3">Consistent Availability</h3>
+                <h3 class="cs-h3">100 Pagespeed score</h3>
                 <p class="cs-item-text">
-                    Our therapists specialize in trauma and emotional wellness.
+                    Slow websites lose customers. Our hand-coded approach allows us to optimize every line of code, guaranteeing a near-perfect PageSpeed score that keeps users engaged and Google happy.
                 </p>
             </li>
             <li class="cs-item">
                 <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/therapy3.svg" alt="icon" width="120" height="120">
-                <h3 class="cs-h3">Goal-Oriented Process</h3>
+                <h3 class="cs-h3">Unmatched Support</h3>
                 <p class="cs-item-text">
-                    Our therapists specialize in trauma and emotional wellness.
+                    When you need help, you'll talk directly to the person who built your website. Get fast, knowledgeable support via call, text, or email without waiting in a queue.
                 </p>
             </li>
             <li class="cs-item">
                 <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/therapy4.svg" alt="icon" width="120" height="120">
-                <h3 class="cs-h3">Client-First Experience</h3>
+                <h3 class="cs-h3">We Know SEO</h3>
                 <p class="cs-item-text">
-                    Our therapists specialize in trauma and emotional wellness.
+                    A beautiful site is useless if no one can find it. We build every site with a strategic SEO foundation to help you rank on Google for the terms that matter most to your Atlanta-area business.
                 </p>
             </li>
         </ul>
@@ -239,31 +258,41 @@ tags: "sitemap" # content/content.json will make sure that all pages in content/
             </div>
             <!--Image-->
             <picture class="cs-picture">
-                <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/tax1.jpg">
-                <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/tax1.jpg">
-                <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/tax1.jpg" alt="meeting" width="630" height="630" aria-hidden="true">
+                <!--Mobile Image-->
+                <source media="(max-width: 600px)" srcset="{% getUrl '/assets/images/JPG/lighthouseTest2.jpg' | resize({ width:534, height:595 })  | avif %}" type="image/avif">
+                <source media="(max-width: 600px)" srcset="{% getUrl '/assets/images/JPG/lighthouseTest2.jpg' | resize({ width:534, height:595 }) | webp %}" type="image/webp">
+                <source media="(max-width: 600px)" srcset="{% getUrl '/assets/images/JPG/lighthouseTest2.jpg' | resize({ width:534, height:595 }) | jpeg %}" type="image/jpeg">
+                <!--Tablet Image-->
+                <source media="(min-width: 1024px)" srcset="{% getUrl '/assets/images/JPG/lighthouseTest2.jpg' | resize({ width: 1058 , height: 1118}) | avif %}" type="image/avif">
+                <source media="(min-width: 1024px)" srcset="{% getUrl '/assets/images/JPG/lighthouseTest2.jpg' | resize({ width: 1058 , height: 1118}) | webp %}" type="image/webp">
+                <source media="(min-width: 1024px)" srcset="{% getUrl '/assets/images/JPG/lighthouseTest2.jpg' | resize({ width: 1058 , height: 1118}) | jpeg %}" type="image/jpeg">
+                <!--Desktop Image-->
+                <source media="(min-width: 1024px)" srcset="{% getUrl '/assets/images/JPG/lighthouseTest2.jpg' | resize({ width: 870 , height: 1260 }) | avif %}" type="image/avif">
+                <source media="(min-width: 1024px)" srcset="{% getUrl '/assets/images/JPG/lighthouseTest2.jpg' | resize({ width: 870 , height: 1260 }) | webp %}" type="image/webp">
+                <source media="(min-width: 1024px)" srcset="{% getUrl '/assets/images/JPG/lighthouseTest2.jpg' | resize({ width: 870 , height: 1260 }) | jpeg %}" type="image/jpeg">
+                <img src="{% getUrl '/assets/images/JPG/lighthouseTest2.jpg' | resize({ width:630, height: 630 }) | jpeg %}" alt="library" width="630" height="630" loading="lazy" decoding="async">
             </picture>
         </div>
         <!-- Right Content Section-->
         <div class="cs-content">
             <span class="cs-topper">About Us</span>
-            <h2 class="cs-title">Get Help on Finance</h2>
+            <h2 class="cs-title">Performance and Partnership You Can Trust</h2>
             <p class="cs-text">
-                In the new era of technology we look in the future with certainty and pride for our company and business. consider all the drivers of change gives you the blocks & pride for our components you need to change to create a truly professional website In the new era.
+                CodeStitch was founded in Marietta on a simple belief: small businesses in Atlanta deserve better than slow, cookie-cutter websites. We are passionate about the craft of coding. That's why you see perfect scores for Performance, Accessibility, and Best Practices. For us, it's a measure of quality. For your business, it means more traffic, more leads, and a professional image you can be proud of.
             </p>
-            <a class="cs-button-solid" aria-label="learn more about our programs" href="">Learn More</a>
+            <a class="cs-button-solid" aria-label="learn more about our programs" href="">Schedule Your Free Consultation</a>
             <ul class="cs-ul">
                 <li class="cs-item">
-                    <span class="cs-number">150 +</span>
-                    <h3 class="cs-h3">Staff on three continents</h3>
+                    <span class="cs-number">100%</span>
+                    <h3 class="cs-h3">Satisfaction Guarantee</h3>
                 </li>
                 <li class="cs-item">
-                    <span class="cs-number">700 +</span>
-                    <h3 class="cs-h3">Consulting engagements</h3>
+                    <span class="cs-number">100</span>
+                    <h3 class="cs-h3">Pagespeed Score</h3>
                 </li>
                 <li class="cs-item">
-                    <span class="cs-number">180 +</span>
-                    <h3 class="cs-h3">Learning community members</h3>
+                    <span class="cs-number">5/5</span>
+                    <h3 class="cs-h3">Reviews</h3>
                 </li>
             </ul>
         </div>
@@ -282,8 +311,8 @@ tags: "sitemap" # content/content.json will make sure that all pages in content/
         <ul class="cs-card-group">
             <li class="cs-item">
                 <div class="cs-price-box">
-                    <span class="cs-package">Basic Membership</span>
-                    <span class="cs-price">$125/month</span>
+                    <span class="cs-package">Lump Sum</span>
+                    <span class="cs-price">$2500 + $25/month </span>
                      </div>
                 <ul class="cs-ul">
                     <li class="cs-li">
@@ -303,7 +332,7 @@ tags: "sitemap" # content/content.json will make sure that all pages in content/
             </li>
             <li class="cs-item">
                 <div class="cs-price-box cs-vip">
-                    <span class="cs-package">VIP Membership</span>
+                    <span class="cs-package">Monthly</span>
                     <span class="cs-price">$150/month</span>
                      </div>
                 <ul class="cs-ul">
@@ -328,48 +357,42 @@ tags: "sitemap" # content/content.json will make sure that all pages in content/
             </li>
         </ul>
     </div>
-   </section>
-<!-- ============================================ -->
-<!--                   Services                   -->
+   </section><!-- ============================================ -->
+<!--                  Reviews                     -->
 <!-- ============================================ -->
 
-<section id="services-2382">
+<section id="reviews-287">
     <div class="cs-container">
+        <!--Content Left-->
         <div class="cs-content">
-            <span class="cs-topper">Our Services</span>
-            <h2 class="cs-title">Exceptional Care for an
-                Enhanced Therapy Journey</h2>
+            <span class="cs-topper">Testimonial</span>
+            <h2 class="cs-title">Read What Parents Are Saying About Us</h2>
             <p class="cs-text">
-                In addition to conventional therapy, we provide personalized consultations, therapist pairing, and upcoming group sessions to guarantee that each client gets the optimal support customized to their individual requirements.
+                Facilisis condimentum viverra scelerisque ac morbi sit sed. Turpis sagittis in blandit tortor ullamcorper eu placerat. Et orci felis volutpat, etiam vitae egestas volutpat pulvinar.
+            </p>
+            <p class="cs-review">
+                “My daughter Kimberley was a "play by ear" pianist when she began lessons at The Main Line Conservatory of Music. Now she is reading and writing music. The lessons are geared towards the individual student's style and genre. We are very pleased with their professionalism and dedication.”
+                <span class="cs-name"> ― Nathalie, Mom</span>
             </p>
         </div>
-        <div class="cs-wrapper">
-            <picture class="cs-picture">
-                <!--Mobile Image-->
-                <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/people12.jpg">
-                <!--Tablet and above Image-->
-                <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/people12.jpg">
-                <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/people12.jpg" alt="people" width="402" height="416">
-            </picture>
-            <ul class="cs-card-group">
-                <li class="cs-item">
-                    <h3 class="cs-h3">Personal Growth Therapy</h3>
-                    <p class="cs-item-text">
-                        Uncover emotional patterns, heal past wounds, and build confidence with expert support tailored to your goals and values. This one-on-one therapy creates space for deep transformation and lasting change.
-                    </p>
-                    <a href="" class="cs-link">Book Now</a>
-                </li>
-                <li class="cs-item">
-                    <h3 class="cs-h3">Personal Growth
-                        Therapy</h3>
-                    <p class="cs-item-text">
-                        Uncover emotional patterns, heal past wounds, and build confidence with expert support tailored to your goals and values. This one-on-one therapy creates space for deep transformation and lasting change.
-                    </p>
-                    <a href="" class="cs-link">Book Now</a>
-                </li>
-            </ul>
-        </div>
+        <!--Image Right-->
+        <picture class="cs-picture">
+            <!--Mobile Image-->
+            <source media="(max-width: 600px)" srcset="{% getUrl '/assets/images/JPG/BlueLensWebsite.jpg' | resize({ width:640, height:409 })  | avif %}" type="image/avif">
+            <source media="(max-width: 600px)" srcset="{% getUrl '/assets/images/JPG/BlueLensWebsite.jpg' | resize({ width:640, height:409 }) | webp %}" type="image/webp">
+            <source media="(max-width: 600px)" srcset="{% getUrl '/assets/images/JPG/BlueLensWebsite.jpg' | resize({ width:640, height:409 }) | jpeg %}" type="image/jpeg">
+            <!--Tablet Image-->
+            <source media="(min-width: 1024px)" srcset="{% getUrl '/assets/images/JPG/BlueLensWebsite.jpg' | resize({ width: 1100 , height: 703}) | avif %}" type="image/avif">
+            <source media="(min-width: 1024px)" srcset="{% getUrl '/assets/images/JPG/BlueLensWebsite.jpg' | resize({ width: 1100 , height: 703}) | webp %}" type="image/webp">
+            <source media="(min-width: 1024px)" srcset="{% getUrl '/assets/images/JPG/BlueLensWebsite.jpg' | resize({ width: 1100 , height: 703}) | jpeg %}" type="image/jpeg">
+            <!--Desktop Image-->
+            <source media="(min-width: 1024px)" srcset="{% getUrl '/assets/images/JPG/BlueLensWebsite.jpg' | resize({ width: 962 , height: 794 }) | avif %}" type="image/avif">
+            <source media="(min-width: 1024px)" srcset="{% getUrl '/assets/images/JPG/BlueLensWebsite.jpg' | resize({ width: 962 , height: 794 }) | webp %}" type="image/webp">
+            <source media="(min-width: 1024px)" srcset="{% getUrl '/assets/images/JPG/BlueLensWebsite.jpg' | resize({ width: 962 , height: 794 }) | jpeg %}" type="image/jpeg">
+            <img src="{% getUrl '/assets/images/JPG/BlueLensWebsite.jpg' | resize({ width:630, height: 411 }) | jpeg %}" alt="library" width="630" height="411" loading="lazy" decoding="async">
+        </picture>
     </div>
+    <a href="" class="cs-button-solid">Read More Reviews</a>
 </section>
 
 
