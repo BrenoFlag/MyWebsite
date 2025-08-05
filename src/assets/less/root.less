@@ -13,17 +13,22 @@
 @media only screen and (min-width: 0rem) {
     /* All elements in the library derive their variables and base styles from this central sheet, simplifying site-wide edits. For instance, if you want to modify how your h2's appear across the site, you just update it once in the global styles, and the changes apply everywhere. */
     :root {
+        --buttonText: #FFF;
+        --cardBackground: #E1E8F0;
         --background: #F5F7FA;
-        --primary: #e1e8f0;
-        --primaryLight: #ffba43;
-        --secondary: #ffba43;
-        --secondaryLight: #ffba43;
+        --primary: #0F2C59;
+        --primaryLight: #0F2C59;
+        --secondary: #00BFFF;
+        --secondaryLight: #00BFFF;
         --headerColor: #0F2C59;
-        --bodyTextColor: rgba(15, 44, 89, 0.85);;
-        --bodyTextColorWhite: #fafbfc;
+        --bodyTextColor: #0F2C59;
+        --bodyTextColorWhite: #D3D9E3;
         --accent: #0180ff;
 
         /* Dark Mode Styles */
+        --darkBackground:082032;
+        --darkPrimaryAccent:#0F2C59;
+        --darkSecondaryAccent:#00BFFF;
         --dark: #082032;
         --medium: #2c394b;
         --accent: #334756;
@@ -67,7 +72,7 @@
         text-align: inherit;
         letter-spacing: 0.1em;
         font-weight: 700;
-        color: var(--primary);
+        color: var(--secondary);
         margin-bottom: 0.25rem;
         display: block;
     }
@@ -110,7 +115,7 @@
         z-index: 1;
         position: relative;
         display: inline-block;
-        background-color: #00BFFF;
+        background-color: var(--secondary);
         width: auto;
         padding: (16/16rem) (32/16rem);
         text-decoration: none;
@@ -122,13 +127,13 @@
         overflow: hidden;
 
         // Transition Properties
-        color: var(--bodyTextColorWhite);
+        color: var(--buttonText);
         transition: color 0.3s;
         transition-delay: 0.1s;
         text-align: center;
 
         &:hover {
-            color: #fff;
+            color: var(--buttonText);
 
             &:before {
                 width: 100%;
@@ -143,7 +148,7 @@
             content: "";
             opacity: 1;
             display: block;
-            background-color: #000;
+            background-color: var(--primary);
             height: 100%;
 
             //Transition properties
@@ -187,7 +192,7 @@
             content: "";
             opacity: 1;
             display: block;
-            background-color: #000;
+            background-color: var(--darkSecondaryAccent);
             height: 100%;
 
             //Transition properties
@@ -280,7 +285,7 @@
     }
 
     body.dark-mode {
-        background-color: var(--dark);
+        background-color: var(--darkBackground);
 
         p,
         li,
@@ -425,7 +430,7 @@
         /* prevents padding and border from affecting height and width */
         box-sizing: border-box;
         padding: (12/16rem) (16/16rem);
-        background-color: #fff;
+        background-color: var(--background);
         box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
         position: fixed;
         z-index: 10000;
@@ -571,7 +576,7 @@
 
         .cs-ul-wrapper {
             height: 100vh;
-            background-color: #fff;
+            background-color: var(--background);
             box-shadow: inset rgba(0, 0, 0, 0.2) 0px 8px 24px;
             opacity: 0;
             position: absolute;
@@ -670,7 +675,7 @@
         }
 
         .cs-button-solid {
-            background-color: #00BFFF;
+            background-color: var(--secondary);
             display: none;
         }
     }
@@ -680,7 +685,7 @@
 @media only screen and (max-width: 1023.5px) {
     body.dark-mode {
         #cs-navigation {
-            background-color: var(--dark);
+            background-color: var(--darkBackground);
 
             .cs-logo {
                 /* makes it white */
@@ -688,7 +693,7 @@
             }
 
             .cs-line {
-                background-color: #fff;
+                background-color: var(--background);
             }
 
             .cs-ul-wrapper {
@@ -797,7 +802,7 @@
                     opacity: 1;
                     transform: translateY(0);
                     &:hover{
-                        background-color: var(--accent);
+                        background-color: var(--secondary);
                     }
                 }
             }
@@ -813,7 +818,7 @@
             min-width: (200/16rem);
             margin: 0;
             padding: 0;
-            background-color: #fff;
+            background-color: var(--background);
             box-shadow: rgba(149, 157, 165, 0.2) 0px 10px 16px;
             opacity: 0;
             border-bottom: 5px solid var(--primary);
@@ -898,7 +903,7 @@
                 display: block;
                 transition: color 0.3s, background-color 0.3s;
                 &:hover {
-                    background-color: var(--accent);
+                    background-color: var(--secondary);
                 }
 
                 &:before {
@@ -914,14 +919,14 @@
     body.dark-mode {
         #cs-navigation {
             .cs-drop-ul {
-                background-color: var(--dark);
+                background-color: var(--darkBackground);
             }
 
             .cs-li-link {
                 &.cs-drop-link {
-                    background-color: var(--dark);
+                    background-color: var(--darkBackground);
                     &:hover {
-                        background-color: var(--medium);
+                        background-color: var(--darkSecondaryAccent);
                     }
                 }
             }
@@ -945,7 +950,7 @@
         /* prevents padding and border from affecting height and width */
         box-sizing: border-box;
         padding: 0 (16/16rem);
-        background-color: #fff;
+        background-color: var(--background);
         box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
         position: fixed;
         z-index: 10000;
@@ -1044,7 +1049,7 @@
 @media only screen and (min-width: 1024px) {
     body.dark-mode {
         #cs-navigation {
-            background-color: var(--dark);
+            background-color: var(--darkBackground);
 
             .cs-logo {
                 /* makes it turn white */
@@ -1057,7 +1062,7 @@
 
             .cs-li-link {
                 &:before {
-                    background-color: var(--primaryLight);
+                    background-color: var(--primary);
                 }
             }
         }
@@ -1230,67 +1235,27 @@
 
         .cs-button-solid {
             font-size: (16/16rem);
-            /* 46px - 56px */
-            line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+            line-height: (56/16rem);
             text-decoration: none;
             font-weight: 700;
-            text-align: center;
+            overflow: hidden;
             margin: 0;
-            color: #fff;
-            min-width: (150/16rem);
-            padding: 0 (24/16rem);
+            color: var(--buttonText);
+            padding: 0 (48/16rem);
+            border-radius: (30/16rem);
             background-color: #00BFFF;
             display: inline-block;
             position: relative;
             z-index: 1;
-            /* prevents padding from adding to the width */
-            box-sizing: border-box;
-
-            &:before {
-                content: "";
-                position: absolute;
-                height: 100%;
-                width: 0%;
-                background: #000;
-                opacity: 1;
-                top: 0;
-                left: 0;
-                z-index: -1;
-                transition: width 0.3s;
-            }
-
-            &:hover {
-                &:before {
-                    width: 100%;
-                }
-            }
-        }
-
-        .cs-button-transparent {
-            font-size: (16/16rem);
-            /* 46px - 56px */
-            line-height: clamp(2.875rem, 5.5vw, 3.5rem);
-            text-decoration: none;
-            font-weight: 700;
-            text-align: center;
-            margin: 0;
-            color: #fff;
-            min-width: (150/16rem);
-            padding: 0 (24/16rem);
-            background-color: transparent;
-            display: inline-block;
-            position: relative;
-            z-index: 1;
-            /* prevents padding from adding to the width */
-            box-sizing: border-box;
             transition: color 0.3s;
 
             &:before {
                 content: "";
                 position: absolute;
+                display: block;
                 height: 100%;
                 width: 0%;
-                background: #00BFFF;
+                background: var(--primary);
                 opacity: 1;
                 top: 0;
                 left: 0;
@@ -1298,29 +1263,15 @@
                 transition: width 0.3s;
             }
 
-            &:after {
-                /* border */
-                content: "";
-                position: absolute;
-                height: 100%;
-                width: 100%;
-                /* prevents padding from adding to the width */
-                box-sizing: border-box;
-                border: 1px solid #fff;
-                top: 0;
-                left: 0;
-                z-index: -1;
-                transition: width 0.3s;
-                pointer-events: none;
-            }
-
             &:hover {
-                color: var(--primary);
+                color: var(--buttonText);
                 &:before {
                     width: 100%;
                 }
             }
         }
+
+
 
         .cs-background {
             width: 100%;
@@ -1383,7 +1334,7 @@
 /* Mobile - 360px */
 @media only screen and (min-width: 0rem) {
     #footer-1147 {
-        background-color: #000;
+        background-color: var(--darkBackground);
         padding: var(--sectionPadding);
         position: relative;
         z-index: 1;
@@ -1477,7 +1428,7 @@
         .cs-social-link {
             width: (32/16rem);
             height: (32/16rem);
-            background-color: #484848;
+            background-color: var(--darkSecondaryAccent);
             border-radius: 50%;
             display: flex;
             justify-content: center;
@@ -1558,7 +1509,7 @@
 /* Tablet - 768px */
 @media only screen and (min-width: 48rem) {
     #footer-1147 {
-        background-color: #000;
+        background-color: var(--darkBackground);
         .cs-top {
             flex-direction: row;
             justify-content: space-between;
