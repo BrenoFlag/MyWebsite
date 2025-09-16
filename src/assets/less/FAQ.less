@@ -230,10 +230,10 @@
 @media only screen and (min-width: 0rem) {
   body.dark-mode {
     #faq-2407 {
-      background-color: rgba(0, 0, 0, 0.2);
+      background-color: var(--darkBackground);
 
       .cs-topper {
-        color: var(--primaryLight);
+        color: var(--darkSecondaryAccent);
       }
 
       .cs-title,
@@ -242,11 +242,15 @@
       }
 
       .cs-faq-item {
-        background-color: var(--medium);
+        background-color: var(--darkBackground);
+
+        &:before {
+          background: var(--darkPrimaryAccent);
+        }
 
         &.active {
           .cs-button {
-            color: var(--primaryLight);
+            color: var(--darkPrimaryAccent);
           }
         }
       }
