@@ -1,6 +1,6 @@
 ---
-title: "Reviews | Code Stitch Web Designs"
-description: "Meta description for the page"
+title: "SEO Services in Atlanta & Nationwide | Elevate Websites Design"
+description: "Boost your business visibility with Elevate Websites Design's expert SEO services in Atlanta and across the USA. We help small businesses and startups improve search rankings, drive qualified traffic, and grow their customer base with proven SEO strategies."
 permalink: "/SEO/"
 ---
 
@@ -11,6 +11,37 @@ permalink: "/SEO/"
 {% endblock %}
 
 {% block body %}
+
+<!-- ============================================ -->
+<!--                   Banner                     -->
+<!-- ============================================ -->
+
+<div id="banner-310">
+    <div class="cs-container">
+        <span class="cs-int-title">SEO</span>
+        <div class="cs-breadcrumbs">
+            <a href="/" class="cs-link">Home</a>
+            <a href="/contact/" class="cs-link cs-active">SEO</a>
+        </div>
+    </div>
+    <!--Background Image-->
+    <picture class="cs-background">
+        <!--Mobile Image-->
+        <source media="(max-width: 600px)" srcset="{% getUrl "/assets/images/cabinets.jpg" | resize({ width: 640, height: 600 }) | avif %}" type="image/avif">
+        <source media="(max-width: 600px)" srcset="{% getUrl "/assets/images/cabinets.jpg" | resize({ width: 640, height: 600 }) | webp %}" type="image/webp">
+        <source media="(max-width: 600px)" srcset="{% getUrl "/assets/images/cabinets.jpg" | resize({ width: 640, height: 600 }) | jpeg %}" type="image/jpeg">
+        <!--Tablet Image-->
+        <source media="(max-width: 1024px)" srcset="{% getUrl "/assets/images/cabinets.jpg" | resize({ width: 2048, height: 942 }) | avif %}" type="image/avif">
+        <source media="(max-width: 1024px)" srcset="{% getUrl "/assets/images/cabinets.jpg" | resize({ width: 2048, height: 942 }) | webp %}" type="image/webp">
+        <source media="(max-width: 1024px)" srcset="{% getUrl "/assets/images/cabinets.jpg" | resize({ width: 2048, height: 942 }) | jpeg %}" type="image/jpeg">
+        <!--Desktop Image-->
+        <source media="(min-width: 1024px)" srcset="{% getUrl "/assets/images/cabinets.jpg" | resize({ width: 2500, height: 628 }) | avif %}" type="image/avif">
+        <source media="(min-width: 1024px)" srcset="{% getUrl "/assets/images/cabinets.jpg" | resize({ width: 2500, height: 628 }) | webp %}" type="image/webp">
+        <source media="(min-width: 1024px)" srcset="{% getUrl "/assets/images/cabinets.jpg" | resize({ width: 2500, height: 628 }) | jpeg %}" type="image/jpeg">
+        <img src="{% getUrl "/assets/images/cabinets.jpg" | resize({ width: 2500, height: 628 }) | jpeg %}" alt="library" width="1920" height="482" loading="eager" decoding="async">
+    </picture>
+</div>
+
 <!-- ============================================ -->
 <!--                 Content Page                 -->
 <!-- ============================================ -->
@@ -39,28 +70,31 @@ permalink: "/SEO/"
             <img class="cs-floater" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/day-care-events-left.svg" alt="graphic" loading="lazy" decoding="async" height="710" width="690">
         </div>
         <div class="cs-content">
-            <h1 class="cs-title">h1 - A Personalized Approach To Your <span class="cs-color">Well-Being</span></h1>
-            <h2>Heading 2</h2>
-            <h3>Heading 3</h3>
-            <h4>Heading 4-6</h4>
+            <h1 class="cs-title">SEO Services for Businesses in Atlanta &amp; Across the USA</h1>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis laboriosam eum quae in temporibus cumque tempora expedita mollitia nostrum adipisci, ipsum commodi, cupiditate, sequi quos enim! Quaerat esse non sunt! Lorem ipsum dolor sit amet <a href="">link example</a>. Est, quis!
+                Having a beautiful website isn't enough if no one can find it. At <strong>Elevate Websites Design</strong>, we provide <strong>results-driven SEO services</strong> designed to help small businesses and startups rank higher on Google, attract qualified leads, and establish a strong online presence. Whether you're a local business in Atlanta or targeting customers nationwide, our strategies ensure your business gets discovered where it matters most.
             </p>
+            <h2>Service Highlights</h2>
+            <h3>On-Page Optimization</h3>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis laboriosam eum quae in temporibus cumque tempora expedita mollitia nostrum <strong>adipisci, ipsum commodi</strong>, cupiditate, sequi quos enim!
+                We optimize your website's structure, headings, metadata, and content for maximum search visibility. Clean, hand-coded websites combined with precise SEO practices give your business the competitive edge it needs.
             </p>
-            <h3>Heading 3</h3>
-            <ol>
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-            </ol>
-            <h4>Heading 4-6</h4>
-            <ul>
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-            </ul>
+            <h3>Keyword Research &amp; Strategy</h3>
+            <p>
+                We identify the terms your customers are actively searching for, both in Atlanta and nationwide, and create an SEO roadmap tailored to your industry. This ensures you rank for keywords that actually convert.
+            </p>
+            <h3>Local &amp; National SEO Campaigns</h3>
+            <p>
+                From Google Business Profile optimization for local traffic to nationwide campaigns targeting broader audiences, our SEO services are flexible enough to scale with your business goals.
+            </p>
+            <h3>Content Optimization &amp; Strategy</h3>
+            <p>
+                SEO is powered by valuable content. We enhance your site's copy with keyword-rich, engaging content that appeals to both search engines and your target customers.
+            </p>
+            <h3>Technical SEO</h3>
+            <p>
+                With our hand-coded websites, we guarantee <strong>fast load times, strong security, and clean code</strong> &ndash; all major ranking factors that boost your site's performance in search results.
+            </p>
         </div>
     </div>
     <div class="cs-bubbles" aria-hidden="true"></div>

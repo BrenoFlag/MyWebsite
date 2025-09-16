@@ -1,6 +1,6 @@
 ---
-title: "Reviews | Code Stitch Web Designs"
-description: "Meta description for the page"
+title: "Website Design FAQs | Elevate Websites Design | Atlanta & Nationwide"
+description: "Get answers to the most common questions about Elevate Websites Design’s services. From pricing to SEO and support, our FAQ helps businesses in Atlanta and across the USA make confident decisions about their website needs."
 permalink: "/FAQ/"
 ---
 
@@ -8,10 +8,41 @@ permalink: "/FAQ/"
 
 {% block head %}
 <link rel="stylesheet" href="/assets/css/FAQ.css">
-<script src="/assets/js/FAQ.js"></script>
+<script defer src="/assets/js/FAQ.js"></script>
 {% endblock %}
 
 {% block body %}
+
+<!-- ============================================ -->
+<!--                   Banner                     -->
+<!-- ============================================ -->
+
+<div id="banner-310">
+    <div class="cs-container">
+        <span class="cs-int-title">FAQ</span>
+        <div class="cs-breadcrumbs">
+            <a href="/" class="cs-link">Home</a>
+            <a href="/contact/" class="cs-link cs-active">FAQ</a>
+        </div>
+    </div>
+    <!--Background Image-->
+    <picture class="cs-background">
+        <!--Mobile Image-->
+        <source media="(max-width: 600px)" srcset="{% getUrl "/assets/images/cabinets.jpg" | resize({ width: 640, height: 600 }) | avif %}" type="image/avif">
+        <source media="(max-width: 600px)" srcset="{% getUrl "/assets/images/cabinets.jpg" | resize({ width: 640, height: 600 }) | webp %}" type="image/webp">
+        <source media="(max-width: 600px)" srcset="{% getUrl "/assets/images/cabinets.jpg" | resize({ width: 640, height: 600 }) | jpeg %}" type="image/jpeg">
+        <!--Tablet Image-->
+        <source media="(max-width: 1024px)" srcset="{% getUrl "/assets/images/cabinets.jpg" | resize({ width: 2048, height: 942 }) | avif %}" type="image/avif">
+        <source media="(max-width: 1024px)" srcset="{% getUrl "/assets/images/cabinets.jpg" | resize({ width: 2048, height: 942 }) | webp %}" type="image/webp">
+        <source media="(max-width: 1024px)" srcset="{% getUrl "/assets/images/cabinets.jpg" | resize({ width: 2048, height: 942 }) | jpeg %}" type="image/jpeg">
+        <!--Desktop Image-->
+        <source media="(min-width: 1024px)" srcset="{% getUrl "/assets/images/cabinets.jpg" | resize({ width: 2500, height: 628 }) | avif %}" type="image/avif">
+        <source media="(min-width: 1024px)" srcset="{% getUrl "/assets/images/cabinets.jpg" | resize({ width: 2500, height: 628 }) | webp %}" type="image/webp">
+        <source media="(min-width: 1024px)" srcset="{% getUrl "/assets/images/cabinets.jpg" | resize({ width: 2500, height: 628 }) | jpeg %}" type="image/jpeg">
+        <img src="{% getUrl "/assets/images/cabinets.jpg" | resize({ width: 2500, height: 628 }) | jpeg %}" alt="library" width="1920" height="482" loading="eager" decoding="async">
+    </picture>
+</div>
+
 <!-- ============================================ -->
 <!--                     FAQ                      -->
 <!-- ============================================ -->
@@ -21,7 +52,7 @@ permalink: "/FAQ/"
         <div class="cs-content">
             <div class="cs-flex">
                 <span class="cs-topper">FAQ</span>
-                <h2 class="cs-title">Frequently Asked Questions</h2>
+                <h1 class="cs-title">Frequently Asked Questions About Our Web Design Services</h1>
             </div>
             <picture class="cs-picture">
                 <source media="(max-width: 600px)" srcset="https://nyc3.digitaloceanspaces.com/csimages2/Images/Misc/dog2.png" />
@@ -36,9 +67,9 @@ permalink: "/FAQ/"
                 <li class="cs-faq-item active">
                     <button class="cs-button">
                         <div class="cs-flex">
-                            <span class="cs-button-text"> How often do you clean yards? </span>
+                            <span class="cs-button-text"> What types of businesses do you work with? </span>
                             <p class="cs-item-p">
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque debitis excepturi dignissimos. Quaerat odio assumenda et dolor error minus cum?
+                                We specialize in building <strong>hand-coded, secure, and fast-loading websites</strong> for small businesses, startups, and entrepreneurs. Whether you’re a local service provider in Atlanta or a national brand looking for a sleek online presence, we tailor every project to your business goals.
                             </p>
                         </div>
                         <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/arrow-dwon2.svg" alt="icon" width="24" height="24"/>
@@ -47,10 +78,9 @@ permalink: "/FAQ/"
                 <li class="cs-faq-item">
                     <button class="cs-button">
                         <div class="cs-flex">
-                            <span class="cs-button-text"> Is the service safe for pets? </span>
+                            <span class="cs-button-text"> How much does a website cost? </span>
                             <p class="cs-item-p">
-                                Absolutely! We prioritize the safety of your pets by exclusively using products that are safe for them, ensuring a healthy environment for your
-                                furry friends.
+                                We offer two pricing options: a one-time <strong>lump sum of $2,500 plus $25/month hosting</strong> or a <strong>monthly plan of $150</strong>. Both plans include SEO setup, unlimited edits, and full access to our ongoing support, making it easy to get started without hidden costs.
                             </p>
                         </div>
                         <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/arrow-dwon2.svg" alt="icon" width="24" height="24"/>
@@ -59,10 +89,9 @@ permalink: "/FAQ/"
                 <li class="cs-faq-item">
                     <button class="cs-button">
                         <div class="cs-flex">
-                            <span class="cs-button-text"> Do I need to be home? </span>
+                            <span class="cs-button-text"> What makes your websites different from template-based builders like Wix or Squarespace? </span>
                             <p class="cs-item-p">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit convallis nunc neque, bibendum pulvinar vitae commodo velit. Proin diam tortor sed
-                                malesuada nunc, habitant. Dignissim ipsum porta enim, magna urna, quam.
+                                Unlike cookie-cutter platforms, our websites are <strong>100% hand-coded</strong>. This means faster performance, stronger security, and full customization. Your site will load quickly, rank better on Google, and reflect a professional image that sets you apart from competitors.
                             </p>
                         </div>
                         <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/arrow-dwon2.svg" alt="icon" width="24" height="24"/>
@@ -71,10 +100,20 @@ permalink: "/FAQ/"
                 <li class="cs-faq-item">
                     <button class="cs-button">
                         <div class="cs-flex">
-                            <span class="cs-button-text"> How do I start service? </span>
+                            <span class="cs-button-text"> Will my website be optimized for mobile and SEO? </span>
                             <p class="cs-item-p">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit convallis nunc neque, bibendum pulvinar vitae commodo velit. Proin diam tortor sed
-                                malesuada nunc, habitant. Dignissim ipsum porta enim, magna urna, quam.
+                                Yes. Every site we build is <strong>mobile-responsive and SEO-friendly from day one</strong>. We follow best practices to ensure your business ranks higher in search results and delivers a seamless experience for users on smartphones, tablets, and desktops.
+                            </p>
+                        </div>
+                        <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/arrow-dwon2.svg" alt="icon" width="24" height="24"/>
+                    </button>
+                </li>
+                <li class="cs-faq-item">
+                    <button class="cs-button">
+                        <div class="cs-flex">
+                            <span class="cs-button-text"> How long does it take to build my website? </span>
+                            <p class="cs-item-p">
+                                Most projects take <strong>2–4 weeks</strong>, depending on the scope and features you need. We keep communication clear and provide updates throughout the process so you know exactly when your site will go live.
                             </p>
                         </div>
                         <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/arrow-dwon2.svg" alt="icon" width="24" height="24"/>
@@ -85,10 +124,9 @@ permalink: "/FAQ/"
                 <li class="cs-faq-item">
                     <button class="cs-button">
                         <div class="cs-flex">
-                            <span class="cs-button-text"> What areas do you serve? </span>
+                            <span class="cs-button-text"> Can you redesign my existing website? </span>
                             <p class="cs-item-p">
-                                Our services extend to San Jose and its surrounding neighborhoods, providing convenient access to our offerings for residents in nearby areas,
-                                ensuring everyone can benefit from what we provide.
+                                Absolutely. Whether your current site is outdated, slow, or not converting visitors, we can <strong>redesign it with a modern, professional look</strong> that improves performance and helps you win more customers.
                             </p>
                         </div>
                         <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/arrow-dwon2.svg" alt="icon" width="24" height="24"/>
@@ -97,10 +135,9 @@ permalink: "/FAQ/"
                 <li class="cs-faq-item">
                     <button class="cs-button">
                         <div class="cs-flex">
-                            <span class="cs-button-text"> Do you offer one-time cleanups? </span>
+                            <span class="cs-button-text"> Do you provide ongoing support after launch? </span>
                             <p class="cs-item-p">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit convallis nunc neque, bibendum pulvinar vitae commodo velit. Proin diam tortor sed
-                                malesuada nunc, habitant. Dignissim ipsum porta enim, magna urna, quam.
+                                Yes. We provide <strong>unlimited edits</strong> and ongoing support with all our plans. From updating content to troubleshooting technical issues, we ensure your site keeps running smoothly so you can focus on your business.
                             </p>
                         </div>
                         <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/arrow-dwon2.svg" alt="icon" width="24" height="24"/>
@@ -109,10 +146,9 @@ permalink: "/FAQ/"
                 <li class="cs-faq-item">
                     <button class="cs-button">
                         <div class="cs-flex">
-                            <span class="cs-button-text"> How do I pay? </span>
+                            <span class="cs-button-text"> Do you only serve Atlanta businesses? </span>
                             <p class="cs-item-p">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit convallis nunc neque, bibendum pulvinar vitae commodo velit. Proin diam tortor sed
-                                malesuada nunc, habitant. Dignissim ipsum porta enim, magna urna, quam.
+                                While we’re proudly based in Atlanta, our services are available <strong>nationwide</strong>. Whether you’re in New York, Los Angeles, or a smaller town, we can design, launch, and maintain your website remotely with the same level of care.
                             </p>
                         </div>
                         <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/arrow-dwon2.svg" alt="icon" width="24" height="24"/>
@@ -121,10 +157,9 @@ permalink: "/FAQ/"
                 <li class="cs-faq-item">
                     <button class="cs-button">
                         <div class="cs-flex">
-                            <span class="cs-button-text"> What happens during bad weather? </span>
+                            <span class="cs-button-text"> How do I get started? </span>
                             <p class="cs-item-p">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit convallis nunc neque, bibendum pulvinar vitae commodo velit. Proin diam tortor sed
-                                malesuada nunc, habitant. Dignissim ipsum porta enim, magna urna, quam.
+                                Getting started is simple: just <strong>contact us through our form or call us directly</strong>. We’ll schedule a consultation, discuss your goals, and recommend the plan that best fits your needs. From there, we’ll begin crafting a website designed to elevate your business.
                             </p>
                         </div>
                         <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/arrow-dwon2.svg" alt="icon" width="24" height="24"/>
