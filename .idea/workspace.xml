@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a43ff23-f2c7-4440-bae8-d36a2a831d62" name="Changes" comment="">
+    <list default="true" id="360ca197-0656-46f7-8790-98f7182eef98" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_includes/sections/cta.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/_includes/sections/cta.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/less/critical.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/less/critical.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/less/local.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/less/local.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/less/root.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/less/root.less" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,28 +16,25 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="codex" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;BrenoFlag&quot;
-  }
-}</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/BrenoFlag/MyWebsite.git&quot;,
-    &quot;accountId&quot;: &quot;d6641536-a29e-4e9c-b814-c58c53152b2d&quot;
-  }
-}</component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
-  <component name="ProjectId" id="30TISPVoN5y49bs731qm58ky4rM" />
+  <component name="ProjectId" id="30SviNVJSQrN2NGP0Mx9CsPgUto" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -53,44 +46,43 @@
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "DefaultHtmlFileTemplate": "HTML File",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
-    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "/Users/brenobandeira/WebstormProjects/MyWebsite/src/assets/images",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_interpreter_path": "C:/Users/zzfla/AppData/Roaming/JetBrains/WebStorm2025.1/node/versions/24.4.1/node",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "watcher.settings",
-    "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="bundled-js-predefined-d6986cc7102b-b26f3e71634d-JavaScript-WS-251.26094.131" />
-      </set>
-    </attachedChunks>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets/images" />
+      <recent name="$PROJECT_DIR$/src/assets/images/JPG" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets/images/JPG" />
+    </key>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="7a43ff23-f2c7-4440-bae8-d36a2a831d62" name="Changes" comment="" />
-      <created>1753645134490</created>
+      <changelist id="360ca197-0656-46f7-8790-98f7182eef98" name="Changes" comment="" />
+      <created>1753633916104</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1753645134490</updated>
-      <workItem from="1753645135664" duration="6148000" />
-      <workItem from="1753653203425" duration="2472000" />
-      <workItem from="1753655701386" duration="44000" />
-      <workItem from="1753800133304" duration="285000" />
-      <workItem from="1753800438235" duration="1586000" />
-      <workItem from="1753971871167" duration="16000" />
-      <workItem from="1754361573552" duration="4882000" />
+      <updated>1753633916104</updated>
+      <workItem from="1753633918000" duration="23738000" />
+      <workItem from="1756261226574" duration="1193000" />
+      <workItem from="1756318408695" duration="2879000" />
+      <workItem from="1756605441811" duration="610000" />
+      <workItem from="1757998311984" duration="739000" />
     </task>
     <servers />
   </component>
