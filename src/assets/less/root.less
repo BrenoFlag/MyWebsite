@@ -13,7 +13,7 @@
 @media only screen and (min-width: 0rem) {
     /* All elements in the library derive their variables and base styles from this central sheet, simplifying site-wide edits. For instance, if you want to modify how your h2's appear across the site, you just update it once in the global styles, and the changes apply everywhere. */
     :root {
-        --buttonText: #FFF;
+        --buttonText: var(--bodyTextColorWhite);
         --cardBackground: #E1E8F0;
         --background: #F5F7FA;
         --primary: #0F2C59;
@@ -170,16 +170,17 @@
         font-size: (16/16rem);
         line-height: (16/16em);
         font-weight: bold;
-        border: 2px solid #000;
+        background-color: var(--secondary);
+        border: 2px solid var(--secondary);
 
         // Transition Properties
-        color: #000;
+        color: var(--buttonText);
         transition: color 0.3s;
         transition-delay: 0.1s;
         text-align: center;
 
         &:hover {
-            color: #fff;
+            color: var(--buttonText);
 
             &:before {
                 width: 100%;
@@ -233,8 +234,9 @@
         }
 
         .cs-button-outline {
-            border-color: var(--bodyTextColorWhite);
-            color: var(--bodyTextColorWhite);
+            background-color: var(--secondary);
+            border-color: var(--secondary);
+            color: var(--buttonText);
         }
     }
 }
@@ -381,8 +383,9 @@
         width: (48/16rem);
         height: (48/16rem);
         padding: 0;
-        background: transparent;
+        background-color: var(--secondary);
         border: none;
+        color: var(--buttonText);
         display: block;
         position: absolute;
         top: (10/16rem);
@@ -527,7 +530,7 @@
             width: clamp(2.75rem, 6vw, 3rem);
             height: clamp(2.75rem, 6vw, 3rem);
             margin: 0 0 0 auto;
-            background-color: transparent;
+            background-color: var(--secondary);
             border: none;
             border-radius: (4/16rem);
             display: flex;
@@ -1265,7 +1268,7 @@
             color: var(--buttonText);
             padding: 0 (48/16rem);
             border-radius: (30/16rem);
-            background-color: #00BFFF;
+            background-color: var(--secondary);
             display: inline-block;
             position: relative;
             z-index: 1;
