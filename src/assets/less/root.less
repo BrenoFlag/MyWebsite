@@ -286,6 +286,11 @@
 
     body.dark-mode {
         background-color: var(--darkBackground);
+        color: var(--bodyTextColorWhite);
+
+        * {
+            color: inherit;
+        }
 
         p,
         li,
@@ -295,7 +300,14 @@
         h4,
         h5,
         h6 {
-            color: var(--bodyTextColorWhite);
+            color: inherit;
+        }
+
+        p,
+        li {
+            a {
+                color: inherit;
+            }
         }
     }
 }
