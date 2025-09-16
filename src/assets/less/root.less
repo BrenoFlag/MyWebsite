@@ -26,7 +26,7 @@
         --accent: #0180ff;
 
         /* Dark Mode Styles */
-        --darkBackground:082032;
+        --darkBackground: #082032;
         --darkPrimaryAccent:#0F2C59;
         --darkSecondaryAccent:#00BFFF;
         --dark: #082032;
@@ -231,8 +231,8 @@
         }
 
         .cs-button-outline {
-            border-color: #fff;
-            color: #fff;
+            border-color: var(--bodyTextColorWhite);
+            color: var(--bodyTextColorWhite);
         }
     }
 }
@@ -295,7 +295,7 @@
         h4,
         h5,
         h6 {
-            color: #fff;
+            color: var(--bodyTextColorWhite);
         }
     }
 }
@@ -350,7 +350,7 @@
             .cs-moon {
                 opacity: 0;
                 transform: translate(-50%, -150%);
-                fill: #fff;
+                fill: var(--bodyTextColorWhite);
             }
         }
     }
@@ -693,11 +693,11 @@
             }
 
             .cs-line {
-                background-color: var(--background);
+                background-color: var(--bodyTextColorWhite);
             }
 
             .cs-ul-wrapper {
-                background-color: var(--medium);
+                background-color: var(--darkBackground);
             }
 
             .cs-li-link {
@@ -1062,7 +1062,7 @@
 
             .cs-li-link {
                 &:before {
-                    background-color: var(--primary);
+                    background-color: var(--darkPrimaryAccent);
                 }
             }
         }
