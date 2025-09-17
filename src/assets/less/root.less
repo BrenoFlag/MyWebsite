@@ -130,15 +130,16 @@
 
         // Transition Properties
         color: var(--buttonText);
-        transition: color 0.3s;
-        transition-delay: 0.1s;
+        transition: color 0.3s ease 0.1s, background-color 0.3s ease;
         text-align: center;
 
         &:hover {
             color: var(--buttonText);
+            background-color: var(--primary);
 
             &:before {
                 width: 100%;
+                background-color: var(--primary);
             }
         }
 
@@ -705,6 +706,11 @@
         .cs-button-solid {
             background-color: var(--secondary);
             display: none;
+            transition: background-color 0.3s ease;
+
+            &:hover {
+                background-color: var(--primary);
+            }
         }
     }
 }
@@ -1275,7 +1281,7 @@
             display: inline-block;
             position: relative;
             z-index: 1;
-            transition: color 0.3s;
+            transition: color 0.3s ease, background-color 0.3s ease;
 
             &:before {
                 content: "";
@@ -1293,7 +1299,9 @@
 
             &:hover {
                 color: var(--buttonText);
+                background-color: var(--primary);
                 &:before {
+                    background-color: var(--primary);
                     width: 100%;
                 }
             }
