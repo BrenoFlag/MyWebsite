@@ -781,7 +781,7 @@
             margin: 0;
             box-sizing: border-box;
             padding: 0 (24/16rem) 0 (24/16rem);
-            background-color: var(--primary);
+            background-color: var(--secondary);
             opacity: 0;
             display: flex;
             visibility: hidden;
@@ -804,7 +804,7 @@
             &.cs-drop-link {
                 /* 14px - 16px */
                 font-size: clamp(0.875rem, 2vw, 1.25rem);
-                color: #fff;
+                color: var(--buttonText);
             }
         }
     }
@@ -846,7 +846,7 @@
             min-width: (200/16rem);
             margin: 0;
             padding: 0;
-            background-color: var(--background);
+            background-color: var(--secondary);
             box-shadow: rgba(149, 157, 165, 0.2) 0px 10px 16px;
             opacity: 0;
             border-bottom: 5px solid var(--primary);
@@ -868,7 +868,7 @@
             list-style: none;
             width: 100%;
             height: auto;
-            color: var(--bodyTextColor);
+            color: var(--buttonText);
             opacity: 0;
             display: block;
             transform: translateY(-0.625rem);
@@ -925,7 +925,7 @@
                 /* prevents padding and border from affecting height and width */
                 box-sizing: border-box;
                 padding: (12/16rem);
-                color: var(--bodyTextColor);
+                color: var(--buttonText);
                 background-color: var(--secondary);
                 outline: none;
                 display: block;
