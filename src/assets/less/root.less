@@ -294,6 +294,16 @@
             color: inherit;
         }
 
+        button,
+        input[type="button"],
+        input[type="submit"],
+        .btn,
+        .button,
+        a[role="button"] {
+            color: var(--buttonText);
+            background-color: var(--secondary);
+        }
+
         .cs-topper {
             color: var(--secondary);
         }
@@ -1261,7 +1271,7 @@
             color: var(--buttonText);
             padding: 0 (48/16rem);
             border-radius: (30/16rem);
-            background-color: #00BFFF;
+            background-color: var(--secondary);
             display: inline-block;
             position: relative;
             z-index: 1;
