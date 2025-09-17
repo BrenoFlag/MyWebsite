@@ -955,7 +955,6 @@
             /* prevents padding from adding to the width */
             box-sizing: border-box;
             padding: (12/16rem) (24/16rem);
-            color: var(--buttonText);
             background-color: var(--secondary);
             overflow: hidden;
             border-radius: (24/16rem);
@@ -976,6 +975,10 @@
                 top: 0;
                 left: 0;
             }
+        }
+
+        .cs-price-box .cs-package {
+            color: var(--buttonText);
         }
 
         .cs-price {
@@ -1213,12 +1216,15 @@
             }
 
             .cs-package {
-                color: var(--buttonText);
                 background-color: var(--darkSecondaryAccent);
 
                 &:before {
                     background: var(--darkSecondaryAccent);
                 }
+            }
+
+            .cs-price-box .cs-package {
+                color: var(--buttonText);
             }
 
             .cs-price,
