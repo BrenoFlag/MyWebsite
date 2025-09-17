@@ -93,10 +93,10 @@
             font-weight: 700;
             text-align: center;
             margin: 0;
-            color: #fff;
+            color: var(--buttonText);
             min-width: (150/16rem);
             padding: 0 (24/16rem);
-            background-color: var(--primary);
+            background-color: var(--secondary);
             border-radius: (4/16rem);
             display: inline-block;
             position: relative;
@@ -109,7 +109,7 @@
                 position: absolute;
                 height: 100%;
                 width: 0%;
-                background: #000;
+                background-color: var(--secondary);
                 opacity: 1;
                 top: 0;
                 left: 0;
@@ -119,6 +119,7 @@
             }
 
             &:hover {
+                color: var(--buttonText);
                 &:before {
                     width: 100%;
                 }
@@ -128,6 +129,13 @@
         .cs-submit {
             width: 100%;
             border: none;
+            color: var(--buttonText);
+            background-color: var(--secondary);
+
+            &:before {
+                background-color: var(--secondary);
+            }
+
             &:hover {
                 cursor: pointer;
             }
