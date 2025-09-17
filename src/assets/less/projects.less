@@ -134,6 +134,7 @@
             z-index: 1;
             /* prevents padding from adding to the width */
             box-sizing: border-box;
+            transition: color 0.3s ease, background-color 0.3s ease;
 
             &:before {
                 content: "";
@@ -151,7 +152,9 @@
 
             &:hover {
                 color: var(--buttonText);
+                background-color: var(--primary);
                 &:before {
+                    background-color: var(--primary);
                     width: 100%;
                 }
             }
