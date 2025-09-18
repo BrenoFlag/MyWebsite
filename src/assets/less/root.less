@@ -153,6 +153,7 @@
             display: block;
             background-color: var(--primary);
             height: 100%;
+            pointer-events: none;
 
             //Transition properties
             width: 0;
@@ -303,6 +304,11 @@
         a[role="button"] {
             color: var(--buttonText);
             background-color: var(--secondary);
+        }
+
+        .cs-button-solid,
+        .cs-button-solid:visited {
+            color: var(--buttonText);
         }
 
         .cs-topper {
