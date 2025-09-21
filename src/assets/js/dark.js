@@ -1,14 +1,29 @@
-//
+﻿//
 //    The Dark Mode System
 //
+
+const navLogo = document.querySelector('#cs-navigation .cs-logo img');
+
+function updateNavLogo(theme) {
+    if (!navLogo) return;
+    const lightLogo = navLogo.dataset.lightLogo;
+    const darkLogo = navLogo.dataset.darkLogo;
+    const target = theme === 'dark' ? (darkLogo || lightLogo) : (lightLogo || darkLogo);
+
+    if (target && navLogo.getAttribute('src') !== target) {
+        navLogo.setAttribute('src', target);
+    }
+}
 
 // helper functions to toggle dark mode
 function enableDarkMode() {
     document.body.classList.add("dark-mode");
+    updateNavLogo("dark");
     localStorage.setItem("theme", "dark");
 }
 function disableDarkMode() {
     document.body.classList.remove("dark-mode");
+    updateNavLogo("light");
     localStorage.setItem("theme", "light");
 }
 
@@ -38,3 +53,4 @@ document.getElementById("dark-mode-toggle").addEventListener("click", () => {
     // on click, check localStorage for the dark mode value, use to apply the opposite of what's saved
     localStorage.getItem("theme") === "light" ? enableDarkMode() : disableDarkMode();
 });
+
