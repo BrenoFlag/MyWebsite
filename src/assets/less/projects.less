@@ -149,10 +149,18 @@
                 border-radius: (4/16rem);
                 transition: width 0.3s ease;
             }
+        }
+    }
+}
 
+/* Small Desktop - 1024px */
+@media only screen and (min-width: 64rem) {
+    #gallery-48 {
+        .cs-button-solid {
             &:hover {
                 color: var(--buttonText);
                 background-color: var(--primary);
+
                 &:before {
                     background-color: var(--primary);
                     width: 100%;

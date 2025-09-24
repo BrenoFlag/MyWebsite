@@ -118,15 +118,6 @@
                 border-radius: (4/16rem);
                 transition: width 0.3s ease;
             }
-
-            &:hover {
-                color: var(--buttonText);
-                background-color: var(--primary);
-                &:before {
-                    background-color: var(--primary);
-                    width: 100%;
-                }
-            }
         }
 
         .cs-submit {
@@ -283,6 +274,18 @@
             justify-content: space-between;
             align-items: flex-start;
             gap: (80/16rem);
+        }
+
+        .cs-button-solid {
+            &:hover {
+                color: var(--buttonText);
+                background-color: var(--primary);
+
+                &:before {
+                    background-color: var(--primary);
+                    width: 100%;
+                }
+            }
         }
 
         .cs-left-section {
