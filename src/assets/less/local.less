@@ -624,15 +624,6 @@
                 z-index: -1;
                 transition: width 0.3s ease;
             }
-
-            &:hover {
-                color: var(--buttonText);
-                background-color: var(--primary);
-                &:before {
-                    background-color: var(--primary);
-                    width: 100%;
-                }
-            }
         }
 
         .cs-ul {
@@ -761,6 +752,18 @@
             flex-direction: row;
             justify-content: space-between;
             align-items: stretch;
+        }
+
+        .cs-button-solid {
+            &:hover {
+                color: var(--buttonText);
+                background-color: var(--primary);
+
+                &:before {
+                    background-color: var(--primary);
+                    width: 100%;
+                }
+            }
         }
 
         .cs-content {
@@ -1066,15 +1069,6 @@
                 z-index: -1;
                 transition: width 0.3s ease;
             }
-
-            &:hover {
-                color: var(--buttonText);
-                background-color: var(--primary);
-                &:before {
-                    background-color: var(--primary);
-                    width: 100%;
-                }
-            }
         }
 
         .cs-button-solid {
@@ -1106,15 +1100,6 @@
                 z-index: -1;
                 transition: width 0.3s ease;
             }
-
-            &:hover {
-                color: var(--buttonText);
-                background-color: var(--primary);
-                &:before {
-                    background-color: var(--primary);
-                    width: 100%;
-                }
-            }
         }
 
         .cs-graphic1 {
@@ -1134,6 +1119,23 @@
             top: (320/16rem);
             left: (0/16rem);
             z-index: 0;
+        }
+    }
+}
+
+/* Small Desktop - 1024px */
+@media only screen and (min-width: 64rem) {
+    #pricing-1843 {
+        .cs-button-solid {
+            &:hover {
+                color: var(--buttonText);
+                background-color: var(--primary);
+
+                &:before {
+                    background-color: var(--primary);
+                    width: 100%;
+                }
+            }
         }
     }
 }
@@ -1269,15 +1271,6 @@
                     left: 0;
                     z-index: -1;
                     transition: width 0.3s ease;
-                }
-
-                &:hover {
-                    color: var(--buttonText);
-                    background-color: var(--primary);
-                    &:before {
-                        background-color: var(--primary);
-                        width: 100%;
-                    }
                 }
             }
 
@@ -1427,15 +1420,6 @@
                 z-index: -1;
                 transition: width 0.3s ease;
             }
-
-            &:hover {
-                color: var(--buttonText);
-                background-color: var(--primary);
-                &:before {
-                    background-color: var(--primary);
-                    width: 100%;
-                }
-            }
         }
     }
 }
@@ -1505,6 +1489,23 @@
             height: clamp(24.8125rem, 37vw, 25.6875rem);
             /* prevents flexbox from squishing it */
             flex: none;
+        }
+    }
+}
+
+/* Small Desktop - 1024px */
+@media only screen and (min-width: 64rem) {
+    #reviews-287 {
+        .cs-button-solid {
+            &:hover {
+                color: var(--buttonText);
+                background-color: var(--primary);
+
+                &:before {
+                    background-color: var(--primary);
+                    width: 100%;
+                }
+            }
         }
     }
 }
