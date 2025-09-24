@@ -1,6 +1,6 @@
 ---
-title: "Hand-Coded Web Design in Atlanta, GA | Elevate"
-description: "Is your business invisible online or held back by a slow template site? Elevate is a top-rated web design agency in Atlanta, GA specializing in ultra-fast, secure, hand-coded websites that attract customers. Schedule your free 30-minute consultation today!"
+title: "Small Business Websites | Hand-Coded Web Design & SEO"
+description: "Nationwide web design for small businesses. Hand-coded, fast, secure websites with built-in SEO and ongoing support. Grow your business online today."
 permalink: "/"
 tags: "sitemap" # content/content.json will make sure that all pages in content/ are marked with a "sitemap" tag, for automatic sitemap generation. As index.html is not in content/, we need to add it here to ensure the root page is included in the sitemap generation
 ---
@@ -8,6 +8,8 @@ tags: "sitemap" # content/content.json will make sure that all pages in content/
 {% extends "layouts/base.html" %}
 
 {% block head %}
+    <title>Small Business Websites | Hand-Coded Web Design &amp; SEO</title>
+    <meta name="description" content="Nationwide web design for small businesses. Hand-coded, fast, secure websites with built-in SEO and ongoing support. Grow your business online today.">
     <!-- Critical styles are loaded first -->
     <link rel="stylesheet" href="/assets/css/critical.css"/>
 
@@ -25,6 +27,62 @@ tags: "sitemap" # content/content.json will make sure that all pages in content/
     <!-- To ensure proper validation, prevent errors, and encourage developers to check, schema's are an opt-in feature. They're very bespoke and requires some customising  -->
     <!-- Uncomment the code below to enable Structured Data, and test it when you deploy to Netlify - https://developers.google.com/search/docs/appearance/structured-data -->
     <!-- {% include "components/home-schema.html" %} -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebSite",
+          "@id": "https://elevatewebsitesdesign.com/#website",
+          "url": "https://elevatewebsitesdesign.com/",
+          "name": "Elevate Websites Design",
+          "description": "Nationwide small business web design: hand-coded, fast, secure websites with built-in SEO and ongoing support.",
+          "inLanguage": "en-US",
+          "publisher": { "@id": "https://elevatewebsitesdesign.com/#organization" },
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://elevatewebsitesdesign.com/?s={search_term_string}",
+            "query-input": "required name=search_term_string"
+          }
+        },
+        {
+          "@type": ["Organization","ProfessionalService"],
+          "@id": "https://elevatewebsitesdesign.com/#organization",
+          "name": "Elevate Websites Design",
+          "url": "https://elevatewebsitesdesign.com/",
+          "logo": "https://elevatewebsitesdesign.com/path-to-your-logo.png",
+          "image": "https://elevatewebsitesdesign.com/path-to-your-hero-image.jpg",
+          "description": "Hand-coded websites, built-in SEO, fast performance, and direct developer support for small businesses across the U.S.",
+          "slogan": "Websites That Help Your Business Grow",
+          "email": "mailto:hello@elevatewebsitesdesign.com",
+          "telephone": "+1-000-000-0000",
+          "sameAs": [
+            "https://www.facebook.com/yourpage",
+            "https://www.instagram.com/yourprofile",
+            "https://www.linkedin.com/company/yourcompany"
+          ],
+          "areaServed": { "@type": "Country", "name": "United States" },
+          "knowsAbout": [
+            "Small business websites",
+            "Hand-coded websites",
+            "SEO services",
+            "Technical SEO",
+            "Google Ads management",
+            "Responsive web design",
+            "Secure static websites",
+            "Website maintenance"
+          ],
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "customer support",
+            "email": "mailto:support@elevatewebsitesdesign.com",
+            "telephone": "+1-000-000-0000",
+            "availableLanguage": ["English"]
+          }
+        }
+      ]
+    }
+    </script>
 {% endblock %}
 
 {% block body %}
@@ -37,11 +95,11 @@ tags: "sitemap" # content/content.json will make sure that all pages in content/
     <div class="cs-container">
         <div class="cs-content">
             <span class="cs-topper">Welcome To Atlanta Webdesign</span>
-            <h1 class="cs-title">Atlanta's Premier Web Design Agency for Small Business</h1>
+            <h1 class="cs-title">Websites That Help Your Business Grow</h1>
             <p class="cs-text">
-                We don't use page builders or WordPress. We provide superior 100% hand-coded websites, delivering unmatched speed, security, and SEO performance.
+                Hand-coded, lightning-fast, and built with SEO from the start. Elevate Websites Design helps small businesses nationwide stand out online with secure, modern websites that convert visitors into customers.
             </p>
-            <a href="/contact/" class="cs-button-solid">Schedule a Free Consultation</a>
+            <a href="/contact/" class="cs-button-solid">Get Your Free Consultation</a>
         </div>
     </div>
     <!--Bubble Groups-->
@@ -61,7 +119,7 @@ tags: "sitemap" # content/content.json will make sure that all pages in content/
         <source media="(min-width: 1024px)" srcset="{% getUrl '/assets/images/JPG/abstractLight.png'| avif %}" type="image/avif">
         <source media="(min-width: 1024px)" srcset="{% getUrl '/assets/images/JPG/abstractLight.png'| webp %}" type="image/webp">
         <source media="(min-width: 1024px)" srcset="{% getUrl '/assets/images/JPG/abstractLight.png'| jpeg %}" type="image/jpeg">
-        <img src="{% getUrl '/assets/images/JPG/abstractLight.png' | resize({ width:2250, height: 1500 }) | jpeg %}" alt="library" width="2250" height="1500" loading="lazy" decoding="async">
+        <img src="{% getUrl '/assets/images/JPG/abstractLight.png' | resize({ width:2250, height: 1500 }) | jpeg %}" alt="Professional small business website design banner with modern abstract shapes" width="2250" height="1500" loading="lazy" decoding="async">
 
         </picture>
 </section>
@@ -74,7 +132,7 @@ tags: "sitemap" # content/content.json will make sure that all pages in content/
         <!-- Left Content Section-->
         <div class="cs-content">
             <span class="cs-topper">What we offer</span>
-            <h2 class="cs-title">Our Web Design Services for Atlanta Businesses</h2>
+            <h2 class="cs-title">Our Web Design Services for Small Businesses</h2>
             <p class="cs-text">
                 Designed to give your business a competitive edge, grow your customer base, and establish a professional online presence that converts.
             </p>
@@ -82,86 +140,86 @@ tags: "sitemap" # content/content.json will make sure that all pages in content/
         <ul class="cs-card-group">
             <li class="cs-item">
                 <picture class="cs-icon-wrapper">
-                    <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/trees-white.svg" alt="hair cut" width="40" height="40">
+                    <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/trees-white.svg" alt="Responsive web design icon" width="40" height="40">
                 </picture>
                 <h3 class="cs-h3">Mobile-First Responsive Design</h3>
                 <p class="cs-item-text">
-                    The majority of your customers will find you on their phone. We design for mobile first, ensuring a flawless experience on any device—from smartphones and tablets to desktops.
+                    Your customers are on their phones. That’s why every website we build is fully responsive and optimized for mobile, desktop, and tablet — so your business always looks its best.
                 </p>
                 <a href="/webDesign/" class="cs-link">Read More</a>
                 <!--Background Image-->
                 <picture class="cs-background">
-                    <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/hair1.jpg" alt="hair cut" width="480" height="425">
+                    <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/hair1.jpg" alt="Responsive web design example displayed on laptop and smartphone screens" width="480" height="425">
                 </picture>
             </li>
             <li class="cs-item">
                 <picture class="cs-icon-wrapper">
-                    <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/trees-white.svg" alt="hair cut" width="40" height="40">
+                    <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/trees-white.svg" alt="Website updates icon" width="40" height="40">
                 </picture>
-                <h3 class="cs-h3">Unlimited Edits & Maintenance</h3>
+                <h3 class="cs-h3">Unlimited Edits &amp; Updates</h3>
                 <p class="cs-item-text">
-                    Your business evolves, and your website should too. We offer monthly plans that includes ongoing website maintenance and unlimited small edits, ensuring your site is always secure, updated, and accurate.
+                    Need to update your services or add new content? We’ve got you covered. We offer plans unlimited small edits and updates, so your website grows alongside your business.
                 </p>
                 <a href="/webDesign/" class="cs-link">Read More</a>
                 <!--Background Image-->
                 <picture class="cs-background">
-                    <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/hair2.jpg" alt="hair cut" width="480" height="425">
+                    <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/hair2.jpg" alt="Business owner updating website content with professional support" width="480" height="425">
                 </picture>
             </li>
             <li class="cs-item">
                 <picture class="cs-icon-wrapper">
-                    <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/trees-white.svg" alt="hair cut" width="40" height="40">
+                    <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/trees-white.svg" alt="Custom coding icon" width="40" height="40">
                 </picture>
                 <h3 class="cs-h3">Custom Hand-Coded Websites</h3>
                 <p class="cs-item-text">
-                    We build your website from the ground up with clean, efficient code. This means no template bloat, just a lightning-fast, fully custom design tailored to your brand and your customers.
+                    No templates. No page builders. Every website we create is hand-coded from scratch, built for speed, security, and scalability.
                 </p>
                 <a href="/webDesign/" class="cs-link">Read More</a>
                 <!--Background Image-->
                 <picture class="cs-background">
-                    <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/hair3.jpg" alt="hair cut" width="480" height="425">
+                    <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/hair3.jpg" alt="Developer creating custom hand-coded website for small business" width="480" height="425">
                 </picture>
             </li>
             <li class="cs-item">
                 <picture class="cs-icon-wrapper">
-                    <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/trees-white.svg" alt="hair cut" width="40" height="40">
+                    <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/trees-white.svg" alt="SEO services icon" width="40" height="40">
                 </picture>
                 <h3 class="cs-h3">SEO Services</h3>
                 <p class="cs-item-text">
-                    Our SEO service perfects the technical foundation we build. We perform an in-depth analysis of your site and implement critical on-page optimizations, from strategic keyword placement in titles and headings to local schema markup, ensuring Google ranks you for what matters.
+                    Our websites come with SEO baked in. From keyword research to technical optimization, we make sure your business gets found on Google.
                 </p>
                 <a href="/seo/" class="cs-link">Read More</a>
                 <!--Background Image-->
                 <picture class="cs-background">
-                    <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/hair1.jpg" alt="hair cut" width="480" height="425">
+                    <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/hair1.jpg" alt="SEO strategy dashboard showing keyword rankings and analytics" width="480" height="425">
                 </picture>
             </li>
             <li class="cs-item">
                 <picture class="cs-icon-wrapper">
-                    <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/trees-white.svg" alt="hair cut" width="40" height="40">
+                    <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/trees-white.svg" alt="Google Ads icon" width="40" height="40">
                 </picture>
                 <h3 class="cs-h3">Targeted Google Ad Campaigns</h3>
                 <p class="cs-item-text">
-                    Need leads right now? We can design and manage targeted Google Ad campaigns that place your business in front of customers at the exact moment they're searching for your services. It's the perfect way to generate immediate traffic and measure your ROI.
+                    Get in front of the right audience with professional Google Ads management. We create campaigns that drive clicks, calls, and conversions.
                 </p>
                 <a href="/googlePpcAds/" class="cs-link">Read More</a>
                 <!--Background Image-->
                 <picture class="cs-background">
-                    <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/hair2.jpg" alt="hair cut" width="480" height="425">
+                    <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/hair2.jpg" alt="Google Ads dashboard with campaign performance results" width="480" height="425">
                 </picture>
             </li>
             <li class="cs-item">
                 <picture class="cs-icon-wrapper">
-                    <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/trees-white.svg" alt="hair cut" width="40" height="40">
+                    <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/trees-white.svg" alt="Business growth icon" width="40" height="40">
                 </picture>
-                <h3 class="cs-h3">Local Atlanta-Based Development</h3>
+                <h3 class="cs-h3">Local &amp; Nationwide Reach</h3>
                 <p class="cs-item-text">
-                    Your project will never be outsourced. All design, development, and support are handled directly by our team right here in the Metro Atlanta area. This guarantees clear communication, direct accountability, and a partner who understands your local market.
+                    Whether you’re serving your neighborhood or clients across the country, our websites are designed to attract and convert the customers you want.
                 </p>
                 <a href="/about/" class="cs-link">Read More</a>
                 <!--Background Image-->
                 <picture class="cs-background">
-                    <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/hair3.jpg" alt="hair cut" width="480" height="425">
+                    <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/hair3.jpg" alt="Map illustration showing local and nationwide business growth" width="480" height="425">
                 </picture>
             </li>
         </ul>
@@ -193,15 +251,15 @@ tags: "sitemap" # content/content.json will make sure that all pages in content/
             <source media="(min-width: 1024px)" srcset="{% getUrl '/assets/images/JPG/Typing.jpg' | resize({ width: 869 , height:1036}) | avif %}" type="image/avif">
             <source media="(min-width: 1024px)" srcset="{% getUrl '/assets/images/JPG/Typing.jpg' | resize({ width: 869 , height:1036}) | webp %}" type="image/webp">
             <source media="(min-width: 1024px)" srcset="{% getUrl '/assets/images/JPG/Typing.jpg' | resize({ width: 869 , height:1036}) | jpeg %}" type="image/jpeg">
-            <img src="{% getUrl '/assets/images/JPG/Typing.jpg' | resize({ width:586, height: 690 }) | jpeg %}" alt="library" width="586" height="690" loading="lazy" decoding="async">
+            <img src="{% getUrl '/assets/images/JPG/Typing.jpg' | resize({ width:586, height: 690 }) | jpeg %}" alt="Small business owner using laptop with professional website design" width="586" height="690" loading="lazy" decoding="async">
         </picture>
         <div class="cs-content">
             <span class="cs-topper">The Elevate Advantage</span>
             <h2 class="cs-title">An Unfair Advantage for Your Business</h2>
             <p class="cs-text">
-                In a market full of slow, generic template websites, quality is the ultimate advantage. We are dedicated to providing a superior digital foundation for your business, built on three core principles: unparalleled performance, airtight security, and a personal partnership you won't find anywhere else.
+                Why settle for ordinary when your business deserves extraordinary? At Elevate Websites Design, we give you a competitive edge with lightning-fast, 100% secure websites and ongoing support that keeps your online presence strong.
             </p>
-            <a href="/contact/" class="cs-button-solid">Discover Our Process</a>
+            <a href="/contact/" class="cs-button-solid">Get Started Today</a>
         </div>
     </div>
 </section>
@@ -214,31 +272,31 @@ tags: "sitemap" # content/content.json will make sure that all pages in content/
     <div class="cs-container">
         <ul class="cs-card-group">
             <li class="cs-item">
-                <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/therapy1.svg" alt="icon" width="120" height="120">
-                <h3 class="cs-h3">100% secure</h3>
+                <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/therapy1.svg" alt="Shield icon representing secure static websites" width="120" height="120">
+                <h3 class="cs-h3">100% Secure</h3>
                 <p class="cs-item-text">
-                    We build static websites, which eliminates the common hacking and plugin vulnerabilities found in systems like WordPress. Your business and customer data are secure with us.
+                    No databases to hack, no vulnerabilities. Just safe, static websites.
                 </p>
             </li>
             <li class="cs-item">
-                <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/therapy2.svg" alt="icon" width="120" height="120">
-                <h3 class="cs-h3">100 Pagespeed score</h3>
+                <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/therapy2.svg" alt="Speedometer icon representing fast load times" width="120" height="120">
+                <h3 class="cs-h3">100% PageSpeed</h3>
                 <p class="cs-item-text">
-                    Slow websites lose customers. Our hand-coded approach allows us to optimize every line of code, guaranteeing a near-perfect PageSpeed score that keeps users engaged and Google happy.
+                    Our hand-coded sites are optimized for near-perfect load times.
                 </p>
             </li>
             <li class="cs-item">
-                <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/therapy3.svg" alt="icon" width="120" height="120">
-                <h3 class="cs-h3">Unmatched Support</h3>
+                <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/therapy3.svg" alt="Support headset icon representing unlimited help" width="120" height="120">
+                <h3 class="cs-h3">Unlimited Support</h3>
                 <p class="cs-item-text">
-                    When you need help, you'll talk directly to the person who built your website. Get fast, knowledgeable support via call, text, or email without waiting in a queue.
+                    Ongoing edits, content updates, and guidance whenever you need it.
                 </p>
             </li>
             <li class="cs-item">
-                <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/therapy4.svg" alt="icon" width="120" height="120">
-                <h3 class="cs-h3">We Know SEO</h3>
+                <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/therapy4.svg" alt="SEO growth icon representing higher rankings" width="120" height="120">
+                <h3 class="cs-h3">Proven SEO</h3>
                 <p class="cs-item-text">
-                    A beautiful site is useless if no one can find it. We build every site with a strategic SEO foundation to help you rank on Google for the terms that matter most to your Atlanta-area business.
+                    Every website is optimized to rank higher and bring in more traffic.
                 </p>
             </li>
         </ul>
@@ -270,7 +328,7 @@ tags: "sitemap" # content/content.json will make sure that all pages in content/
                 <source media="(min-width: 1024px)" srcset="{% getUrl '/assets/images/JPG/lighthouseTest2.jpg' | resize({ width: 870 , height: 1260 }) | avif %}" type="image/avif">
                 <source media="(min-width: 1024px)" srcset="{% getUrl '/assets/images/JPG/lighthouseTest2.jpg' | resize({ width: 870 , height: 1260 }) | webp %}" type="image/webp">
                 <source media="(min-width: 1024px)" srcset="{% getUrl '/assets/images/JPG/lighthouseTest2.jpg' | resize({ width: 870 , height: 1260 }) | jpeg %}" type="image/jpeg">
-                <img src="{% getUrl '/assets/images/JPG/lighthouseTest2.jpg' | resize({ width:630, height: 630 }) | jpeg %}" alt="library" width="630" height="630" loading="lazy" decoding="async">
+                <img src="{% getUrl '/assets/images/JPG/lighthouseTest2.jpg' | resize({ width:630, height: 630 }) | jpeg %}" alt="Website performance analytics dashboard with SEO growth metrics" width="630" height="630" loading="lazy" decoding="async">
             </picture>
         </div>
         <!-- Right Content Section-->
@@ -278,7 +336,7 @@ tags: "sitemap" # content/content.json will make sure that all pages in content/
             <span class="cs-topper">About Us</span>
             <h2 class="cs-title">Performance and Partnership You Can Trust</h2>
             <p class="cs-text">
-                Elevate was founded in Marietta on a simple belief: small businesses in Atlanta deserve better than slow, cookie-cutter websites. We are passionate about the craft of coding. That's why you see perfect scores for Performance, Accessibility, and Best Practices. For us, it's a measure of quality. For your business, it means more traffic, more leads, and a professional image you can be proud of.
+                Your website should be a growth engine, not a headache. With Elevate Websites Design, you get a reliable partner who cares about your business as much as you do. From consultation to launch — and long after — we’re here to support your success.
             </p>
             <a class="cs-button-solid" aria-label="learn more about our programs" href="/contact/">Schedule Your Free Consultation</a>
             <ul class="cs-ul">
@@ -311,77 +369,77 @@ tags: "sitemap" # content/content.json will make sure that all pages in content/
         <ul class="cs-card-group">
             <li class="cs-item">
                 <div class="cs-price-box">
-                    <span class="cs-package">Lump Sum</span>
-                    <span class="cs-price">$2500 + $25/month </span>
+                    <span class="cs-package">Lump Sum Plan</span>
+                    <span class="cs-price">$2,500 + $25/month hosting &amp; maintenance</span>
                      </div>
                 <ul class="cs-ul">
                     <li class="cs-li">
-                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/dark-grey-tick.svg" alt="checkmark" width="24" height="24">
-                        <strong>Custom design and development</strong>
+                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/dark-grey-tick.svg" alt="Website design pricing comparison showing monthly and lump sum options" width="24" height="24">
+                        <strong>Perfect for businesses ready to invest up front.</strong>
                     </li>
                     <li class="cs-li">
-                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/dark-grey-tick.svg" alt="checkmark" width="24" height="24">
-                        <strong>Fast, secure, and mobile-friendly websites</strong>
+                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/dark-grey-tick.svg" alt="checkmark icon" width="24" height="24">
+                        <strong>Includes custom design, SEO setup, and unlimited edits.</strong>
                     </li>
                     <li class="cs-li">
-                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/dark-grey-tick.svg" alt="checkmark" width="24" height="24">
-                        <strong>SEO-ready and optimized for performance</strong>
+                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/dark-grey-tick.svg" alt="checkmark icon" width="24" height="24">
+                        <strong>Unlimited edits keep your website growing with your business.</strong>
                     </li>
                     <li class="cs-li">
-                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/dark-grey-tick.svg" alt="checkmark" width="24" height="24">
-                        <strong>Hosting included at $25/mo</strong>
+                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/dark-grey-tick.svg" alt="checkmark icon" width="24" height="24">
+                        <strong>Hosting and maintenance are bundled for peace of mind.</strong>
                     </li>
                     <li class="cs-li">
-                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/dark-grey-tick.svg" alt="checkmark" width="24" height="24">
-                        <strong>5 pages included, + $100 one-time fee per additional page</strong>
+                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/dark-grey-tick.svg" alt="checkmark icon" width="24" height="24">
+                        <strong>Launch quickly with everything needed to make an impact.</strong>
                     </li>
                     <li class="cs-li">
-                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/dark-grey-tick.svg" alt="checkmark" width="24" height="24">
-                        <strong>+ $50/mo for unlimited edits and 24/7 support</strong>
+                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/dark-grey-tick.svg" alt="checkmark icon" width="24" height="24">
+                        <strong>Dedicated support ensures your updates are always handled.</strong>
                     </li>
                     <li class="cs-li">
-                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/dark-grey-tick.svg" alt="checkmark" width="24" height="24">
-                        <strong>Risk-Free, If we can’t design a site you’re fully satisfied with, we’ll refund you before launch</strong>
+                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/dark-grey-tick.svg" alt="checkmark icon" width="24" height="24">
+                        <strong>Risk-free satisfaction guarantee before launch.</strong>
                     </li>
                 </ul>
-                <a href="/contact/" class="cs-button-solid">Buy Subscription</a>
+                <a href="/contact/" class="cs-button-solid">Get Started</a>
             </li>
             <li class="cs-item">
                 <div class="cs-price-box cs-vip">
-                    <span class="cs-package">Monthly</span>
-                    <span class="cs-price">$150/month</span>
+                    <span class="cs-package">Monthly Plan</span>
+                    <span class="cs-price">$150/month, zero upfront cost</span>
                      </div>
                 <ul class="cs-ul">
                     <li class="cs-li">
-                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/dark-grey-tick.svg" alt="checkmark" width="24" height="24">
-                        <strong>Custom design and development</strong>
+                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/dark-grey-tick.svg" alt="checkmark icon" width="24" height="24">
+                        <strong>Ideal for small businesses that want to spread out costs.</strong>
                     </li>
                     <li class="cs-li">
-                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/dark-grey-tick.svg" alt="checkmark" width="24" height="24">
-                        <strong>Fast, secure, and mobile-friendly websites</strong>
+                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/dark-grey-tick.svg" alt="checkmark icon" width="24" height="24">
+                        <strong>Get the same custom design, SEO setup, and ongoing support.</strong>
                     </li>
                     <li class="cs-li">
-                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/dark-grey-tick.svg" alt="checkmark" width="24" height="24">
-                        <strong>SEO-ready and optimized for performance</strong>
+                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/dark-grey-tick.svg" alt="checkmark icon" width="24" height="24">
+                        <strong>Unlimited edits keep your website fresh every month.</strong>
                     </li>
                     <li class="cs-li">
-                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/dark-grey-tick.svg" alt="checkmark" width="24" height="24">
-                        <strong>Secure hosting already included</strong>
+                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/dark-grey-tick.svg" alt="checkmark icon" width="24" height="24">
+                        <strong>Secure hosting and maintenance are included in every plan.</strong>
                     </li>
                     <li class="cs-li">
-                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/dark-grey-tick.svg" alt="checkmark" width="24" height="24">
-                        <strong>5 pages included, + $100 one-time fee per additional page</strong>
+                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/dark-grey-tick.svg" alt="checkmark icon" width="24" height="24">
+                        <strong>Launch with everything you need to start growing online.</strong>
                     </li>
                     <li class="cs-li">
-                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/dark-grey-tick.svg" alt="checkmark" width="24" height="24">
-                        <strong>Unlimited edits, ongoing maintenance, and 24/7 support all included</strong>
+                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/dark-grey-tick.svg" alt="checkmark icon" width="24" height="24">
+                        <strong>Enjoy direct access to expert support whenever you need it.</strong>
                     </li>
                     <li class="cs-li">
-                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/dark-grey-tick.svg" alt="checkmark" width="24" height="24">
-                        <strong>Risk-Free If we can’t design a site you’re fully satisfied with, we’ll refund you before launch</strong>
+                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/dark-grey-tick.svg" alt="checkmark icon" width="24" height="24">
+                        <strong>Risk-free satisfaction guarantee before launch.</strong>
                     </li>
                 </ul>
-                <a href="/contact/" class="cs-button-solid">Buy Subscription</a>
+                <a href="/contact/" class="cs-button-solid">Start Your Plan</a>
             </li>
         </ul>
     </div>
@@ -394,9 +452,9 @@ tags: "sitemap" # content/content.json will make sure that all pages in content/
         <!--Content Left-->
         <div class="cs-content">
             <span class="cs-topper">Testimonial</span>
-            <h2 class="cs-title">Read What Parents Are Saying About Us</h2>
+            <h2 class="cs-title">What Our Clients Are Saying</h2>
             <p class="cs-text">
-                Facilisis condimentum viverra scelerisque ac morbi sit sed. Turpis sagittis in blandit tortor ullamcorper eu placerat. Et orci felis volutpat, etiam vitae egestas volutpat pulvinar.
+                "The Elevate Websites Design team built us a site that not only looks amazing but also ranks on Google. Our business has seen more calls and customers since launch. We couldn’t be happier."
             </p>
             <p class="cs-review">
                 “My daughter Kimberley was a "play by ear" pianist when she began lessons at The Main Line Conservatory of Music. Now she is reading and writing music. The lessons are geared towards the individual student's style and genre. We are very pleased with their professionalism and dedication.”
@@ -417,10 +475,10 @@ tags: "sitemap" # content/content.json will make sure that all pages in content/
             <source media="(min-width: 1024px)" srcset="{% getUrl '/assets/images/JPG/BlueLensWebsite.jpg' | resize({ width: 962 , height: 794 }) | avif %}" type="image/avif">
             <source media="(min-width: 1024px)" srcset="{% getUrl '/assets/images/JPG/BlueLensWebsite.jpg' | resize({ width: 962 , height: 794 }) | webp %}" type="image/webp">
             <source media="(min-width: 1024px)" srcset="{% getUrl '/assets/images/JPG/BlueLensWebsite.jpg' | resize({ width: 962 , height: 794 }) | jpeg %}" type="image/jpeg">
-            <img src="{% getUrl '/assets/images/JPG/BlueLensWebsite.jpg' | resize({ width:630, height: 411 }) | jpeg %}" alt="library" width="630" height="411" loading="lazy" decoding="async">
+            <img src="{% getUrl '/assets/images/JPG/BlueLensWebsite.jpg' | resize({ width:630, height: 411 }) | jpeg %}" alt="Small business website example shown on desktop and mobile devices" width="630" height="411" loading="lazy" decoding="async">
         </picture>
     </div>
-    <a href="/contact/" class="cs-button-solid">Read More Reviews</a>
+    <a href="/contact/" class="cs-button-solid">Schedule Your Free Consultation</a>
 </section>
 
 
