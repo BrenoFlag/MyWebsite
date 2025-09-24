@@ -289,7 +289,7 @@
                 content: '';
                 width: 100vw;
                 height: 1px;
-                background: #D2D8DF;
+                background: var(--primary);
                 opacity: 1;
                 display: block;
                 position: absolute;
@@ -409,6 +409,8 @@
                 &:before {
                     background-color: var(--darkPrimaryAccent);
                     opacity: .2;
+                    height: 1px;
+                    background: var(--secondary);
                 }
             }
 
@@ -573,6 +575,7 @@
             gap: clamp(3rem, 4vw, 4rem);
         }
 
+
         .cs-content {
             /* set text align to left if content needs to be left aligned */
             text-align: left;
@@ -585,7 +588,6 @@
             position: relative;
             z-index: 10;
         }
-
         .cs-text {
             margin-bottom: (16/16rem);
             &:last-of-type {
@@ -1005,7 +1007,7 @@
 
         .cs-ul {
             /* 32px - 40px */
-            margin: clamp(2rem, 4vw, 2.5rem) 0 auto;
+            margin: clamp(2rem, 4vw, 2.5rem) 0;
             padding: (24/16rem) 0 0 0;
             display: flex;
             flex-direction: column;
