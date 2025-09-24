@@ -335,14 +335,6 @@
                 transition: width 0.3s ease;
             }
 
-            &:hover {
-                color: var(--buttonText);
-                background-color: var(--primary);
-                &:before {
-                    background-color: var(--primary);
-                    width: 100%;
-                }
-            }
         }
         .cs-picture {
             width: 100%;
@@ -376,7 +368,16 @@
             justify-content: space-between;
             align-items: stretch;
         }
-
+        .cs-button-solid{
+            &:hover {
+                color: var(--buttonText);
+                background-color: var(--primary);
+                &:before {
+                    background-color: var(--primary);
+                    width: 100%;
+                }
+            }
+        }
         .cs-content {
             width: 50%;
             max-width: (586/16rem);
