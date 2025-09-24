@@ -240,6 +240,19 @@
 /* Tablet - 700px */
 @media only screen and (min-width: 43.75rem) {
     #cs-contact-265 {
+
+        .cs-button-solid {
+            &:hover {
+                color: var(--buttonText);
+                background-color: var(--primary);
+
+                &:before {
+                    background-color: var(--primary);
+                    width: 100%;
+                }
+            }
+        }
+
         .cs-container {
             max-width: (1280/16rem);
         }

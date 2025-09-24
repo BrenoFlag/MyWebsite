@@ -289,7 +289,22 @@
         }
     }
 }
+/* Tablet - 704*/
+@media only screen and (min-width: 44rem){
+    #hero-1350 {
+        .cs-button-solid {
+            &:hover {
+                color: var(--buttonText);
+                background-color: var(--primary);
 
+                &:before {
+                    background-color: var(--primary);
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
 /* Tablet - 768px */
 @media only screen and (min-width: 48rem) {
     #hero-1350 {
@@ -306,19 +321,6 @@
 
 /* Small Desktop - 1024px */
 @media only screen and (min-width: 64rem) {
-    #hero-1350 {
-        .cs-button-solid {
-            &:hover {
-                color: var(--buttonText);
-                background-color: var(--primary);
-
-                &:before {
-                    background-color: var(--primary);
-                    width: 100%;
-                }
-            }
-        }
-    }
 }
 
 /* Large Desktop - 1300px */
