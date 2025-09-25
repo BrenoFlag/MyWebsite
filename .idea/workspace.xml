@@ -5,17 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="360ca197-0656-46f7-8790-98f7182eef98" name="Changes" comment="moved nightChicago.JPG ro a different folder.">
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/montserrat-v31-latin-700.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/montserrat-v31-latin-italic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/montserrat-v31-latin-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/open-sans-v44-latin-700.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/open-sans-v44-latin-italic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/open-sans-v44-latin-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/JPG/callUs.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/BlueLensWebsite.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_includes/sections/cta.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/_includes/sections/cta.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/less/root.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/less/root.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/pages/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/pages/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,7 +68,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "/Users/brenobandeira/WebstormProjects/MyWebsite/src/assets/images/JPG",
+    "last_opened_file_path": "/Users/brenobandeira/WebstormProjects/MyWebsite/src/assets/images",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -90,11 +81,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets/images" />
       <recent name="$PROJECT_DIR$/src/assets/images/JPG" />
       <recent name="$PROJECT_DIR$/src/assets/fonts" />
       <recent name="$PROJECT_DIR$/src/assets/svgs" />
       <recent name="C:\Users\zzfla\WebstormProjects\MyWebsite1\src\assets\images\JPG" />
-      <recent name="$PROJECT_DIR$/src/assets/images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/assets/images" />
