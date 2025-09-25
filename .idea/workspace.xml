@@ -5,30 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="360ca197-0656-46f7-8790-98f7182eef98" name="Changes" comment="moved nightChicago.JPG ro a different folder.">
-      <change afterPath="$PROJECT_DIR$/src/assets/images/JPG/GooglePpcAds.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/JPG/SEO.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/JPG/USATeritorry.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/JPG/infinty.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/JPG/phoneScrolling.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/JPG/programming.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/svgs/Enfinite.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/svgs/EnfinitySecondaryColor.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/svgs/code-svgrepo-com.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/svgs/edit.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/svgs/google-ads-svgrepo-com.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/svgs/phone.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/svgs/phoneAndComputer.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/svgs/secure-svgrepo-com-2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/svgs/secure-svgrepo-com-3.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/svgs/secure-svgrepo-com.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/svgs/seo-1-svgrepo-com.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/svgs/seoSecondary.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/svgs/the-flash-svgrepo-com.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/svgs/us-map-svgrepo-com.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/montserrat-v31-latin-700.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/montserrat-v31-latin-italic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/montserrat-v31-latin-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/open-sans-v44-latin-700.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/open-sans-v44-latin-italic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/open-sans-v44-latin-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/JPG/callUs.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/less/local.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/less/local.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_includes/sections/cta.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/_includes/sections/cta.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/less/root.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/less/root.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/content/pages/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/pages/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/pages/webDesign.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/pages/webDesign.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +75,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "Updates",
+    "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
     "last_opened_file_path": "/Users/brenobandeira/WebstormProjects/MyWebsite/src/assets/images/JPG",
     "node.js.detected.package.eslint": "true",
@@ -104,6 +91,7 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/assets/images/JPG" />
+      <recent name="$PROJECT_DIR$/src/assets/fonts" />
       <recent name="$PROJECT_DIR$/src/assets/svgs" />
       <recent name="C:\Users\zzfla\WebstormProjects\MyWebsite1\src\assets\images\JPG" />
       <recent name="$PROJECT_DIR$/src/assets/images" />
