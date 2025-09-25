@@ -5,9 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="360ca197-0656-46f7-8790-98f7182eef98" name="Changes" comment="moved nightChicago.JPG ro a different folder.">
-      <change afterPath="$PROJECT_DIR$/src/assets/images/BlueLensWebsite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/me/Favorite-Aragon-Photo-Breno-Gonçalves bandeira-2025-09-25-2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/me/Favorite-Aragon-Photo-Breno-Gonçalves bandeira-2025-09-25-3.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/me/Favorite-Aragon-Photo-Breno-Gonçalves bandeira-2025-09-25-5.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/me/Favorite-Aragon-Photo-Breno-Gonçalves bandeira-2025-09-25-6.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/me/Favorite-Aragon-Photo-Breno-Gonçalves bandeira-2025-09-25-8.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/me/me png.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content/pages/FAQ.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/pages/FAQ.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content/pages/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/pages/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content/pages/googlePpcAds.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/pages/googlePpcAds.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content/pages/seo.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/pages/seo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content/pages/webDesign.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/pages/webDesign.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +34,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="Updates" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -68,7 +77,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "/Users/brenobandeira/WebstormProjects/MyWebsite/src/assets/images",
+    "last_opened_file_path": "C:/Users/zzfla/WebstormProjects/MyWebsite1/src/assets/images/me",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -81,11 +90,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\zzfla\WebstormProjects\MyWebsite1\src\assets\images\me" />
       <recent name="$PROJECT_DIR$/src/assets/images" />
       <recent name="$PROJECT_DIR$/src/assets/images/JPG" />
       <recent name="$PROJECT_DIR$/src/assets/fonts" />
       <recent name="$PROJECT_DIR$/src/assets/svgs" />
-      <recent name="C:\Users\zzfla\WebstormProjects\MyWebsite1\src\assets\images\JPG" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/assets/images" />
