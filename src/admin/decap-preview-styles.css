@@ -17,12 +17,21 @@
 	--bodyFontSize: 1rem;
 
 	/* 60px - 100px top and bottom */
-	--sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+        --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+
+        --font-heading: "Montserrat", system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, "Noto Sans", "Liberation Sans", sans-serif;
+        --font-body: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, "Noto Sans", "Liberation Sans", sans-serif;
+        --lh-body: 1.6;
+        --lh-heading: 1.2;
+        --ls-heading: 0.005em;
 }
 
 .frame-content {
-	font-family: "Roboto", sans-serif;
-	line-height: 1.6em;
+        font-family: var(--font-body);
+        line-height: var(--lh-body);
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        text-rendering: optimizeLegibility;
 }
 
 .frame-content h1,
@@ -31,8 +40,27 @@
 .frame-content h4,
 .frame-content h5,
 .frame-content h6 {
-	font-family: "Roboto", sans-serif;
-	color: var(--headerColor);
+        font-family: var(--font-heading);
+        line-height: var(--lh-heading);
+        letter-spacing: var(--ls-heading);
+        color: var(--headerColor);
+}
+
+.frame-content h1,
+.frame-content h2 {
+        font-weight: 700;
+}
+
+.frame-content h3,
+.frame-content h4,
+.frame-content h5,
+.frame-content h6 {
+        font-weight: 600;
+}
+
+.frame-content strong,
+.frame-content b {
+        font-weight: 600;
 }
 
 .frame-content img {
