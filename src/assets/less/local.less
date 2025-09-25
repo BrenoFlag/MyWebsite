@@ -305,7 +305,7 @@
                 content: '';
                 width: 100vw;
                 height: 1px;
-                background: var(--primary);
+                background: var(--bodyTextColor);
                 opacity: 1;
                 display: block;
                 position: absolute;
@@ -441,9 +441,8 @@
             .cs-title {
                 &:before {
                     background-color: var(--darkPrimaryAccent);
-                    opacity: .2;
                     height: 1px;
-                    background: var(--secondary);
+                    background: var(--bodyTextColorWhite);
                 }
             }
 
@@ -681,7 +680,7 @@
             margin: clamp(2rem, 5vw, 3rem) 0 0 0;
             /* 32px - 48px */
             padding: clamp(2rem, 5vw, 3rem) 0 0 0;
-            border-top: 1px solid #e8e8e8;
+            border-top: 1px solid var(--bodyTextColor);
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -875,6 +874,9 @@
 @media only screen and (min-width: 0rem) {
     body.dark-mode {
         #sbsr-1309 {
+            .cs-ul{
+                border-top: 1px solid var(--bodyTextColorWhite);
+            }
             background-color: var(--darkBackground);
             .cs-title,
             .cs-text,
