@@ -43,8 +43,15 @@
         /* 60px - 100px top and bottom */
         --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
 
-        --headerFont: "Roboto", Arial, sans-serif;
-        --bodyFont: "Roboto", Arial, sans-serif;
+        --font-heading: "Montserrat", system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, "Noto Sans", "Liberation Sans", sans-serif;
+        --font-body: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, "Noto Sans", "Liberation Sans", sans-serif;
+
+        --lh-body: 1.6;
+        --lh-heading: 1.2;
+        --ls-heading: 0.005em;
+
+        --headerFont: var(--font-heading);
+        --bodyFont: var(--font-body);
     }
 
     html,
@@ -53,9 +60,13 @@
         padding: 0;
         overflow-x: hidden;
         font-family: var(--bodyFont);
+        line-height: var(--lh-body);
         font-size: 100%;
         transition: background-color 0.3s;
         color: var(--bodyTextColor);
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        text-rendering: optimizeLegibility;
     }
 
     *,
@@ -68,6 +79,7 @@
     }
 
     .cs-topper {
+        font-family: var(--headerFont);
         font-size: var(--topperFontSize);
         line-height: 1.2em;
         text-transform: uppercase;
@@ -80,6 +92,7 @@
     }
 
     .cs-title {
+        font-family: var(--headerFont);
         font-size: var(--headerFontSize);
         font-weight: 900;
         line-height: 1.2em;
@@ -261,17 +274,57 @@
     h3,
     h4,
     h5,
-    h6 {
+    h6,
+    .section-title,
+    .card-title,
+    .hero-title {
         font-family: var(--headerFont);
-        line-height: 1.2em;
+        line-height: var(--lh-heading);
+        letter-spacing: var(--ls-heading);
         color: var(--headerColor);
+    }
+
+    h1 {
+        font-weight: 700;
+    }
+
+    h2 {
+        font-weight: 700;
+    }
+
+    h3 {
+        font-weight: 600;
+    }
+
+    h4,
+    h5,
+    h6,
+    .section-title,
+    .card-title,
+    .hero-title {
+        font-weight: 600;
     }
 
     p,
     li,
     a {
         font-size: (16/16rem);
-        line-height: 1.5em;
+    }
+
+    p,
+    li,
+    input,
+    textarea,
+    label,
+    small {
+        font-family: var(--bodyFont);
+        font-weight: 400;
+        line-height: var(--lh-body);
+    }
+
+    a {
+        font-family: var(--bodyFont);
+        font-weight: 400;
     }
 
     p,
@@ -281,6 +334,25 @@
         a {
             color: var(--primary);
         }
+    }
+
+    strong,
+    b {
+        font-weight: 600;
+    }
+
+    .button,
+    .btn,
+    .cta,
+    nav a,
+    .menu a,
+    .cs-button-solid,
+    .cs-button-solid:visited,
+    .cs-button-transparent,
+    .cs-link {
+        font-family: var(--headerFont);
+        font-weight: 600;
+        letter-spacing: 0.01em;
     }
 
     a,
@@ -334,40 +406,6 @@
                 color: inherit;
             }
         }
-    }
-}
-
-/* Fonts */
-@media only screen and (min-width: 0rem) {
-    // Grab your fonts to locally host from https://gwfh.mranftl.com/fonts
-    /* roboto-regular - latin */
-    @font-face {
-        font-style: normal;
-        font-family: "Roboto";
-        font-weight: 400;
-        font-display: swap;
-        src: local(""), url("/assets/fonts/roboto-v29-latin-regular.woff2") format("woff2"),
-            /* Chrome 26+, Opera 23+, Firefox 39+ */ url("/assets/fonts/roboto-v29-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-    }
-
-    /* roboto-700 - latin */
-    @font-face {
-        font-style: normal;
-        font-family: "Roboto";
-        font-weight: 700;
-        font-display: swap;
-        src: local(""), url("/assets/fonts/roboto-v29-latin-700.woff2") format("woff2"),
-            /* Chrome 26+, Opera 23+, Firefox 39+ */ url("/assets/fonts/roboto-v29-latin-700.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-    }
-
-    /* roboto-900 - latin */
-    @font-face {
-        font-style: normal;
-        font-family: "Roboto";
-        font-weight: 900;
-        font-display: swap;
-        src: local(""), url("/assets/fonts/roboto-v29-latin-900.woff2") format("woff2"),
-            /* Chrome 26+, Opera 23+, Firefox 39+ */ url("/assets/fonts/roboto-v29-latin-900.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
     }
 }
 
