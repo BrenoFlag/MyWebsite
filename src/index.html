@@ -147,10 +147,13 @@ tags: "sitemap" # content/content.json will make sure that all pages in content/
                 <p class="cs-item-text">
                     Your customers are on their phones. That’s why every website we build is fully responsive and optimized for mobile, desktop, and tablet — so your business always looks its best.
                 </p>
-                <a href="/webDesign/" class="cs-link">Read more about about our websites</a>
+                <a href="/webDesign/" class="cs-link">Read more about our websites</a>
                 <!--Background Image-->
                 <picture class="cs-background">
-                    <img loading="lazy" decoding="async" src="/assets/images/JPG/phoneScrolling.jpg" alt="Responsive web design example displayed on laptop and smartphone screens" width="480" height="425">
+                    <source srcset="{% getUrl "/assets/images/JPG/phoneScrolling.jpg" | resize({ width: 522, height: 540}) | avif %}" type="image/avif">
+                    <source srcset="{% getUrl "/assets/images/JPG/phoneScrolling.jpg" | resize({ width: 522, height: 540}) | webp %}" type="image/webp">
+                    <source srcset="{% getUrl "/assets/images/JPG/phoneScrolling.jpg" | resize({ width: 522, height: 540}) | jpeg %}" type="image/jpeg">
+                    <img src="{% getUrl "/assets/images/JPG/phoneScrolling.jpg" | resize({ width: 522, height: 540}) | jpeg %}" alt="Responsive web design example displayed on laptop and smartphone screens" width="480" height="425" loading="eager" decoding="async">
                 </picture>
             </li>
             <li class="cs-item">
@@ -161,10 +164,13 @@ tags: "sitemap" # content/content.json will make sure that all pages in content/
                 <p class="cs-item-text">
                     Need to update your services or add new content? We’ve got you covered. We offer plans unlimited small edits and updates, so your website grows alongside your business.
                 </p>
-                <a href="/webDesign/" class="cs-link">Read more about about our websites</a>
+                <a href="/webDesign/" class="cs-link">Read more about our websites</a>
                 <!--Background Image-->
                 <picture class="cs-background">
-                    <img loading="lazy" decoding="async" src="/assets/images/JPG/infinty.jpg" alt="Unlimited edits, ongoing maintenance" width="480" height="425">
+                    <source srcset="{% getUrl "/assets/images/JPG/infinty.jpg" | resize({ width: 522, height: 540}) | avif %}" type="image/avif">
+                    <source srcset="{% getUrl "/assets/images/JPG/infinty.jpg" | resize({ width: 522, height: 540}) | webp %}" type="image/webp">
+                    <source srcset="{% getUrl "/assets/images/JPG/infinty.jpg" | resize({ width: 522, height: 540}) | jpeg %}" type="image/jpeg">
+                    <img src="{% getUrl "/assets/images/JPG/infinty.jpg" | resize({ width: 522, height: 540}) | jpeg %}" alt="Unlimited edits, ongoing maintenance" width="480" height="425" loading="eager" decoding="async">
                 </picture>
             </li>
             <li class="cs-item">
@@ -175,10 +181,13 @@ tags: "sitemap" # content/content.json will make sure that all pages in content/
                 <p class="cs-item-text">
                     No templates. No page builders. Every website we create is hand-coded from scratch, built for speed, security, and scalability.
                 </p>
-                <a href="/webDesign/" class="cs-link">Read more about about our websites</a>
+                <a href="/webDesign/" class="cs-link">Read more about our websites</a>
                 <!--Background Image-->
                 <picture class="cs-background">
-                    <img loading="lazy" decoding="async" src="/assets/images/JPG/programming.jpg" alt="Developer creating custom hand-coded website for small business" width="480" height="425">
+                    <source srcset="{% getUrl "/assets/images/JPG/programming.jpg" | resize({ width: 522, height: 540}) | avif %}" type="image/avif">
+                    <source srcset="{% getUrl "/assets/images/JPG/programming.jpg" | resize({ width: 522, height: 540}) | webp %}" type="image/webp">
+                    <source srcset="{% getUrl "/assets/images/JPG/programming.jpg" | resize({ width: 522, height: 540}) | jpeg %}" type="image/jpeg">
+                    <img src="{% getUrl "/assets/images/JPG/programming.jpg" | resize({ width: 522, height: 540}) | jpeg %}" alt="Developer creating custom hand-coded website for small business" width="480" height="425" loading="eager" decoding="async">
                 </picture>
             </li>
             <li class="cs-item">
@@ -192,7 +201,10 @@ tags: "sitemap" # content/content.json will make sure that all pages in content/
                 <a href="/seo/" class="cs-link">Read more about our SEO services</a>
                 <!--Background Image-->
                 <picture class="cs-background">
-                    <img loading="lazy" decoding="async" src="/assets/images/JPG/SEO.jpg" alt="SEO strategy dashboard showing keyword rankings and analytics" width="480" height="425">
+                    <source srcset="{% getUrl "/assets/images/JPG/SEO.jpg" | resize({ width: 522, height: 540}) | avif %}" type="image/avif">
+                    <source srcset="{% getUrl "/assets/images/JPG/SEO.jpg" | resize({ width: 522, height: 540}) | webp %}" type="image/webp">
+                    <source srcset="{% getUrl "/assets/images/JPG/SEO.jpg" | resize({ width: 522, height: 540}) | jpeg %}" type="image/jpeg">
+                    <img src="{% getUrl "/assets/images/JPG/SEO.jpg" | resize({ width: 522, height: 540}) | jpeg %}" alt="SEO strategy dashboard showing keyword rankings and analytics" width="480" height="425" loading="eager" decoding="async">
                 </picture>
             </li>
             <li class="cs-item">
@@ -206,7 +218,10 @@ tags: "sitemap" # content/content.json will make sure that all pages in content/
                 <a href="/googlePpcAds/" class="cs-link">Read more about our Google Ads services</a>
                 <!--Background Image-->
                 <picture class="cs-background">
-                    <img loading="lazy" decoding="async" src="/assets/images/JPG/GooglePpcAds.jpg" alt="Google Ads dashboard with campaign performance results" width="480" height="425">
+                    <source srcset="{% getUrl "/assets/images/JPG/GooglePpcAds.jpg" | resize({ width: 522, height: 540}) | avif %}" type="image/avif">
+                    <source srcset="{% getUrl "/assets/images/JPG/GooglePpcAds.jpg" | resize({ width: 522, height: 540}) | webp %}" type="image/webp">
+                    <source srcset="{% getUrl "/assets/images/JPG/GooglePpcAds.jpg" | resize({ width: 522, height: 540}) | jpeg %}" type="image/jpeg">
+                    <img src="{% getUrl "/assets/images/JPG/GooglePpcAds.jpg" | resize({ width: 522, height: 540}) | jpeg %}" alt="Google Ads dashboard with campaign performance results" width="480" height="425" loading="eager" decoding="async">
                 </picture>
             </li>
             <li class="cs-item">
@@ -220,7 +235,10 @@ tags: "sitemap" # content/content.json will make sure that all pages in content/
                 <a href="/about/" class="cs-link">Read more about us</a>
                 <!--Background Image-->
                 <picture class="cs-background">
-                    <img loading="lazy" decoding="async" src="/assets/images/JPG/USATeritorry.jpg" alt="Map illustration showing local and nationwide business growth" width="480" height="425">
+                    <source srcset="{% getUrl "assets/images/JPG/USATeritorry.jpg" | resize({ width: 522, height: 540}) | avif %}" type="image/avif">
+                    <source srcset="{% getUrl "assets/images/JPG/USATeritorry.jpg" | resize({ width: 522, height: 540}) | webp %}" type="image/webp">
+                    <source srcset="{% getUrl "assets/images/JPG/USATeritorry.jpg" | resize({ width: 522, height: 540}) | jpeg %}" type="image/jpeg">
+                    <img src="{% getUrl "assets/images/JPG/USATeritorry.jpg" | resize({ width: 522, height: 540}) | jpeg %}" alt="Map illustration showing local and nationwide business growth" width="480" height="425" loading="eager" decoding="async">
                 </picture>
             </li>
         </ul>
