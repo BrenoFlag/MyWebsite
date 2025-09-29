@@ -7,6 +7,9 @@ permalink: "/googlePpcAds/"
 {% extends "layouts/base.html" %}
 
 {% block head %}
+<link rel="preload" as="image" href="{% getUrl '/assets/images/blackAndWhiteChicago1.JPG' | resize({ width: 640, height: 600, position: 'bottom'}) | avif %}"/>
+<link rel="preload" as="image" href="{% getUrl '/assets/images/blackAndWhiteChicago1.JPG' | resize({ width: 482, height: 536, position: 'bottom'}) | avif %}"/>
+
 <link rel="stylesheet" href="/assets/css/googlePpcAds.css">
 {% endblock %}
 
