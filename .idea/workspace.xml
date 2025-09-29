@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="360ca197-0656-46f7-8790-98f7182eef98" name="Changes" comment="moved nightChicago.JPG ro a different folder.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_includes/sections/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/_includes/sections/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content/pages/seo.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/pages/seo.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -132,7 +134,7 @@
       <workItem from="1758162473668" duration="3448000" />
       <workItem from="1758741336544" duration="723000" />
       <workItem from="1758915146578" duration="8000" />
-      <workItem from="1759088834206" duration="4156000" />
+      <workItem from="1759088834206" duration="5779000" />
     </task>
     <task id="LOCAL-00001" summary="moved nightChicago.JPG ro a different folder.">
       <option name="closed" value="true" />
