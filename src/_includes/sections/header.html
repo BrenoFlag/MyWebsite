@@ -13,26 +13,26 @@
             <!--Mobile Nav Toggle-->
             <button class="cs-toggle" aria-label="mobile menu toggle">
                 <div class="cs-box" aria-hidden="true">
-                    <span class="cs-line cs-line1" aria-hidden="true"></span>
-                    <span class="cs-line cs-line2" aria-hidden="true"></span>
-                    <span class="cs-line cs-line3" aria-hidden="true"></span>
+                    <p class="cs-line cs-line1" aria-hidden="true"></p>
+                    <p class="cs-line cs-line2" aria-hidden="true"></p>
+                    <p class="cs-line cs-line3" aria-hidden="true"></p>
                 </div>
             </button>
             <!-- We need a wrapper div so we can set a fixed height on the cs-ul in case the nav list gets too long from too many dropdowns being opened and needs to have an overflow scroll. This wrapper acts as the background so it can go the full height of the screen and not cut off any overflowing nav items while the cs-ul stops short of the bottom of the screen, which keeps all nav items in view no matter how mnay there are-->
             <div class="cs-ul-wrapper">
                 <ul id="cs-expanded" class="cs-ul" aria-expanded="false">
                     <li class="cs-li">
-                        <a href="/index/" class="cs-li-link {% if page.url == "/index/" %} cs-active {% endif %}">
+                        <a href="/index/" class="cs-li-link {% if page.url == '/index/' %} cs-active {% endif %}">
                             Home
                         </a>
                     </li>
                     <li class="cs-li">
-                        <a href="/about/" class="cs-li-link {% if page.url == "/about/" %} cs-active {% endif %}">
+                        <a href="/about/" class="cs-li-link {% if page.url == '/about/' %} cs-active {% endif %}">
                             About Us
                         </a>
                     </li>
                     <li class="cs-li">
-                        <a href="/FAQ/" class="cs-li-link {% if page.url == "/FAQ/" %} cs-active {% endif %}">
+                        <a href="/FAQ/" class="cs-li-link {% if page.url == '/FAQ/' %} cs-active {% endif %}">
                         FAQ
                         </a>
                     </li>
