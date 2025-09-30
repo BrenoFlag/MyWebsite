@@ -7,6 +7,9 @@ permalink: "/SEO/"
 {% extends "layouts/base.html" %}
 
 {% block head %}
+<link rel="preload" as="image" href="{% getUrl '/assets/images/blackAndWhiteChicago1.JPG' | resize({ width: 640, height: 600, position: 'bottom'}) | avif %}"/>
+<link rel="preload" as="image" href="{% getUrl '/assets/images/blackAndWhiteChicago1.JPG' | resize({ width: 576, height: 640, position: 'bottom' }) | avif %}"/>
+
 <link rel="stylesheet" href="/assets/css/SEO.css">
 {% endblock %}
 
@@ -27,18 +30,18 @@ permalink: "/SEO/"
     <!--Background Image-->
     <picture class="cs-background">
         <!--Mobile Image-->
-        <source media="(max-width: 600px)" srcset="{% getUrl "/assets/images/blackAndWhiteChicago1.JPG" | resize({ width: 640, height: 600, position: "bottom"}) | avif %}" type="image/avif">
-        <source media="(max-width: 600px)" srcset="{% getUrl "/assets/images/blackAndWhiteChicago1.JPG" | resize({ width: 640, height: 600, position: "bottom"}) | webp %}" type="image/webp">
-        <source media="(max-width: 600px)" srcset="{% getUrl "/assets/images/blackAndWhiteChicago1.JPG" | resize({ width: 640, height: 600, position: "bottom"}) | jpeg %}" type="image/jpeg">
+        <source media="(max-width: 600px)" srcset="{% getUrl '/assets/images/blackAndWhiteChicago1.JPG' | resize({ width: 640, height: 600, position: 'bottom'}) | avif %}" type="image/avif">
+        <source media="(max-width: 600px)" srcset="{% getUrl '/assets/images/blackAndWhiteChicago1.JPG' | resize({ width: 640, height: 600, position: 'bottom'}) | webp %}" type="image/webp">
+        <source media="(max-width: 600px)" srcset="{% getUrl '/assets/images/blackAndWhiteChicago1.JPG' | resize({ width: 640, height: 600, position: 'bottom'}) | jpeg %}" type="image/jpeg">
         <!--Tablet Image-->
-        <source media="(max-width: 1024px)" srcset="{% getUrl "/assets/images/blackAndWhiteChicago1.JPG" | resize({ width: 2048, height: 942, position: "bottom"}) | avif %}" type="image/avif">
-        <source media="(max-width: 1024px)" srcset="{% getUrl "/assets/images/blackAndWhiteChicago1.JPG" | resize({ width: 2048, height: 942, position: "bottom"}) | webp %}" type="image/webp">
-        <source media="(max-width: 1024px)" srcset="{% getUrl "/assets/images/blackAndWhiteChicago1.JPG" | resize({ width: 2048, height: 942, position: "bottom"}) | jpeg %}" type="image/jpeg">
+        <source media="(max-width: 1024px)" srcset="{% getUrl '/assets/images/blackAndWhiteChicago1.JPG' | resize({ width: 2048, height: 942, position: 'bottom'}) | avif %}" type="image/avif">
+        <source media="(max-width: 1024px)" srcset="{% getUrl '/assets/images/blackAndWhiteChicago1.JPG' | resize({ width: 2048, height: 942, position: 'bottom'}) | webp %}" type="image/webp">
+        <source media="(max-width: 1024px)" srcset="{% getUrl '/assets/images/blackAndWhiteChicago1.JPG' | resize({ width: 2048, height: 942, position: 'bottom'}) | jpeg %}" type="image/jpeg">
         <!--Desktop Image-->
-        <source media="(min-width: 1024px)" srcset="{% getUrl "/assets/images/blackAndWhiteChicago1.JPG" | resize({ width: 2500, height: 628, position: "bottom"}) | avif %}" type="image/avif">
-        <source media="(min-width: 1024px)" srcset="{% getUrl "/assets/images/blackAndWhiteChicago1.JPG" | resize({ width: 2500, height: 628, position: "bottom"}) | webp %}" type="image/webp">
-        <source media="(min-width: 1024px)" srcset="{% getUrl "/assets/images/blackAndWhiteChicago1.JPG" | resize({ width: 2500, height: 628, position: "bottom"}) | jpeg %}" type="image/jpeg">
-        <img src="{% getUrl "/assets/images/blackAndWhiteChicago1.JPG" | resize({ width: 2500, height: 628, position: "bottom"}) | jpeg %}" alt="library" width="1920" height="482" loading="eager" decoding="async">
+        <source media="(min-width: 1024px)" srcset="{% getUrl '/assets/images/blackAndWhiteChicago1.JPG' | resize({ width: 2500, height: 628, position: 'bottom'}) | avif %}" type="image/avif">
+        <source media="(min-width: 1024px)" srcset="{% getUrl '/assets/images/blackAndWhiteChicago1.JPG' | resize({ width: 2500, height: 628, position: 'bottom'}) | webp %}" type="image/webp">
+        <source media="(min-width: 1024px)" srcset="{% getUrl '/assets/images/blackAndWhiteChicago1.JPG' | resize({ width: 2500, height: 628, position: 'bottom'}) | jpeg %}" type="image/jpeg">
+        <img src="{% getUrl '/assets/images/blackAndWhiteChicago1.JPG' | resize({ width: 2500, height: 628, position: 'bottom'}) | jpeg %}" alt="Atlanta" width="1920" height="482" loading="eager" decoding="async">
     </picture>
 </div>
 
@@ -60,11 +63,10 @@ permalink: "/SEO/"
     <div class="cs-container">
         <div class="cs-image-group">
             <picture class="cs-background">
-                <!--Mobile Image-->
-                <source media="(max-width: 600px)" srcset="/assets/images/me/Favorite-Aragon-Photo-Breno-Gonçalves bandeira-2025-09-25-6.jpeg">
-                <!--Tablet and above Image-->
-                <source media="(min-width: 601px)" srcset="/assets/images/me/Favorite-Aragon-Photo-Breno-Gonçalves bandeira-2025-09-25-6.jpeg">
-                <img loading="lazy" decoding="async" src="/assets/images/me/Favorite-Aragon-Photo-Breno-Gonçalves bandeira-2025-09-25-6.jpeg" alt="kid" width="522" height="540">
+                <source srcset="{% getUrl '/assets/images/me/BrenoSEO.jpeg' | resize({ width: 522, height: 540, position: 'top'}) | avif %}" type="image/avif">
+                <source srcset="{% getUrl '/assets/images/me/BrenoSEO.jpeg' | resize({ width: 522, height: 540, position: 'top'}) | webp %}" type="image/webp">
+                <source srcset="{% getUrl '/assets/images/me/BrenoSEO.jpeg' | resize({ width: 522, height: 540, position: 'top'}) | jpeg %}" type="image/jpeg">
+                <img src="{% getUrl '/assets/images/me/BrenoSEO.jpeg' | resize({ width: 522, height: 540, position: 'top'}) | jpeg %}" alt="Breno in a suit" width="522" height="540" loading="eager" decoding="async">
             </picture>
             <!--Floating Blob-->
             <img class="cs-floater" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/day-care-events-left.svg" alt="graphic" loading="lazy" decoding="async" height="710" width="690">

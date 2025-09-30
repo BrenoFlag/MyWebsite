@@ -8,8 +8,8 @@ permalink: "/contact/"
 
 {% block head %}
     <link rel="stylesheet" href="/assets/css/contact.css">
-    <link rel="preload" as="image" href="{% getUrl "/assets/images/blackAndWhiteChicago1.JPG" | resize({ width: 640, height: 600, position: "bottom"}) | avif %}"/>
-    <link rel="preload" as="image" href="{% getUrl "/assets/images/construction.jpg" | resize({ width: 576, height: 640 }) | avif %}"/>
+    <link rel="preload" as="image" href="{% getUrl '/assets/images/blackAndWhiteChicago1.JPG' | resize({ width: 640, height: 600, position: 'bottom'}) | avif %}"/>
+    <link rel="preload" as="image" href="{% getUrl '/assets/images/blackAndWhiteChicago1.JPG' | resize({ width: 576, height: 640, position: 'bottom' }) | avif %}"/>
 {% endblock %}
 
 {% block body %}
@@ -29,18 +29,18 @@ permalink: "/contact/"
         <!--Background Image-->
         <picture class="cs-background">
             <!--Mobile Image-->
-            <source media="(max-width: 600px)" srcset="{% getUrl "/assets/images/blackAndWhiteChicago1.JPG" | resize({ width: 640, height: 600, position: "bottom"}) | avif %}" type="image/avif">
-            <source media="(max-width: 600px)" srcset="{% getUrl "/assets/images/blackAndWhiteChicago1.JPG" | resize({ width: 640, height: 600, position: "bottom"}) | webp %}" type="image/webp">
-            <source media="(max-width: 600px)" srcset="{% getUrl "/assets/images/blackAndWhiteChicago1.JPG" | resize({ width: 640, height: 600, position: "bottom"}) | jpeg %}" type="image/jpeg">
+            <source media="(max-width: 600px)" srcset="{% getUrl '/assets/images/blackAndWhiteChicago1.JPG' | resize({ width: 640, height: 600, position: 'bottom'}) | avif %}" type="image/avif">
+            <source media="(max-width: 600px)" srcset="{% getUrl '/assets/images/blackAndWhiteChicago1.JPG' | resize({ width: 640, height: 600, position: 'bottom'}) | webp %}" type="image/webp">
+            <source media="(max-width: 600px)" srcset="{% getUrl '/assets/images/blackAndWhiteChicago1.JPG' | resize({ width: 640, height: 600, position: 'bottom'}) | jpeg %}" type="image/jpeg">
             <!--Tablet Image-->
-            <source media="(max-width: 1024px)" srcset="{% getUrl "/assets/images/blackAndWhiteChicago1.JPG" | resize({ width: 2048, height: 942, position: "bottom"}) | avif %}" type="image/avif">
-            <source media="(max-width: 1024px)" srcset="{% getUrl "/assets/images/blackAndWhiteChicago1.JPG" | resize({ width: 2048, height: 942, position: "bottom"}) | webp %}" type="image/webp">
-            <source media="(max-width: 1024px)" srcset="{% getUrl "/assets/images/blackAndWhiteChicago1.JPG" | resize({ width: 2048, height: 942, position: "bottom"}) | jpeg %}" type="image/jpeg">
+            <source media="(max-width: 1024px)" srcset="{% getUrl '/assets/images/blackAndWhiteChicago1.JPG' | resize({ width: 2048, height: 942, position: 'bottom'}) | avif %}" type="image/avif">
+            <source media="(max-width: 1024px)" srcset="{% getUrl '/assets/images/blackAndWhiteChicago1.JPG' | resize({ width: 2048, height: 942, position: 'bottom'}) | webp %}" type="image/webp">
+            <source media="(max-width: 1024px)" srcset="{% getUrl '/assets/images/blackAndWhiteChicago1.JPG' | resize({ width: 2048, height: 942, position: 'bottom'}) | jpeg %}" type="image/jpeg">
             <!--Desktop Image-->
-            <source media="(min-width: 1024px)" srcset="{% getUrl "/assets/images/blackAndWhiteChicago1.JPG" | resize({ width: 2500, height: 628, position: "bottom"}) | avif %}" type="image/avif">
-            <source media="(min-width: 1024px)" srcset="{% getUrl "/assets/images/blackAndWhiteChicago1.JPG" | resize({ width: 2500, height: 628, position: "bottom"}) | webp %}" type="image/webp">
-            <source media="(min-width: 1024px)" srcset="{% getUrl "/assets/images/blackAndWhiteChicago1.JPG" | resize({ width: 2500, height: 628, position: "bottom"}) | jpeg %}" type="image/jpeg">
-            <img src="{% getUrl "/assets/images/blackAndWhiteChicago1.JPG" | resize({ width: 2500, height: 628, position: "bottom"}) | jpeg %}" alt="library" width="1920" height="482" loading="eager" decoding="async">
+            <source media="(min-width: 1024px)" srcset="{% getUrl '/assets/images/blackAndWhiteChicago1.JPG' | resize({ width: 2500, height: 628, position: 'bottom'}) | avif %}" type="image/avif">
+            <source media="(min-width: 1024px)" srcset="{% getUrl '/assets/images/blackAndWhiteChicago1.JPG' | resize({ width: 2500, height: 628, position: 'bottom'}) | webp %}" type="image/webp">
+            <source media="(min-width: 1024px)" srcset="{% getUrl '/assets/images/blackAndWhiteChicago1.JPG' | resize({ width: 2500, height: 628, position: 'bottom'}) | jpeg %}" type="image/jpeg">
+            <img src="{% getUrl '/assets/images/blackAndWhiteChicago1.JPG' | resize({ width: 2500, height: 628, position: 'bottom'}) | jpeg %}" alt="Atlanta" width="1920" height="482" loading="eager" decoding="async">
         </picture>
     </div>
 
@@ -97,18 +97,18 @@ permalink: "/contact/"
                 <!-- Background Image-->
                 <picture class="cs-bg-picture">
                     <!--Mobile Image-->
-                    <source media="(max-width: 600px)" srcset="{% getUrl "/assets/images/JPG/redPhone.jpg" | resize({ width: 576, height: 640 , position: "left"}) | avif %}" type="image/avif">
-                    <source media="(max-width: 600px)" srcset="{% getUrl "/assets/images/JPG/redPhone.jpg" | resize({ width: 576, height: 640 , position: "left"}) | webp %}" type="image/webp">
-                    <source media="(max-width: 600px)" srcset="{% getUrl "/assets/images/JPG/redPhone.jpg" | resize({ width: 576, height: 640 , position: "left"}) | jpeg %}" type="image/jpeg">
+                    <source media="(max-width: 600px)" srcset="{% getUrl '/assets/images/JPG/redPhone.jpg' | resize({ width: 576, height: 640 , position: 'left'}) | avif %}" type="image/avif">
+                    <source media="(max-width: 600px)" srcset="{% getUrl '/assets/images/JPG/redPhone.jpg' | resize({ width: 576, height: 640 , position: 'left'}) | webp %}" type="image/webp">
+                    <source media="(max-width: 600px)" srcset="{% getUrl '/assets/images/JPG/redPhone.jpg' | resize({ width: 576, height: 640 , position: 'left'}) | jpeg %}" type="image/jpeg">
                     <!--Tablet Image-->
-                    <source media="(max-width: 1024px)" srcset="{% getUrl "/assets/images/JPG/redPhone.jpg" | resize({ width: 820, height: 1372, position: "left" }) | avif %}" type="image/avif">
-                    <source media="(max-width: 1024px)" srcset="{% getUrl "/assets/images/JPG/redPhone.jpg" | resize({ width: 820, height: 1372, position: "left" }) | webp %}" type="image/webp">
-                    <source media="(max-width: 1024px)" srcset="{% getUrl "/assets/images/JPG/redPhone.jpg" | resize({ width: 820, height: 1372, position: "left" }) | jpeg %}" type="image/jpeg">
+                    <source media="(max-width: 1024px)" srcset="{% getUrl '/assets/images/JPG/redPhone.jpg' | resize({ width: 820, height: 1372, position: 'left' }) | avif %}" type="image/avif">
+                    <source media="(max-width: 1024px)" srcset="{% getUrl '/assets/images/JPG/redPhone.jpg' | resize({ width: 820, height: 1372, position: 'left' }) | webp %}" type="image/webp">
+                    <source media="(max-width: 1024px)" srcset="{% getUrl '/assets/images/JPG/redPhone.jpg' | resize({ width: 820, height: 1372, position: 'left' }) | jpeg %}" type="image/jpeg">
                     <!--Desktop Image-->
-                    <source media="(min-width: 1024px)" srcset="{% getUrl "/assets/images/JPG/redPhone.jpg" | resize({ width: 1084, height: 1156, position: "left" }) | avif %}" type="image/avif">
-                    <source media="(min-width: 1024px)" srcset="{% getUrl "/assets/images/JPG/redPhone.jpg" | resize({ width: 1084, height: 1156, position: "left" }) | webp %}" type="image/webp">
-                    <source media="(min-width: 1024px)" srcset="{% getUrl "/assets/images/JPG/redPhone.jpg" | resize({ width: 1084, height: 1156, position: "left" }) | jpeg %}" type="image/jpeg">
-                    <img src="{% getUrl "/assets/images/JPG/redPhone.jpg" | resize({ width: 1084, height: 1156, position: "left" }) | jpeg %}" alt="building" width="542" height="578" decoding="async">
+                    <source media="(min-width: 1024px)" srcset="{% getUrl '/assets/images/JPG/redPhone.jpg' | resize({ width: 1084, height: 1156, position: 'left' }) | avif %}" type="image/avif">
+                    <source media="(min-width: 1024px)" srcset="{% getUrl '/assets/images/JPG/redPhone.jpg' | resize({ width: 1084, height: 1156, position: 'left' }) | webp %}" type="image/webp">
+                    <source media="(min-width: 1024px)" srcset="{% getUrl '/assets/images/JPG/redPhone.jpg' | resize({ width: 1084, height: 1156, position: 'left' }) | jpeg %}" type="image/jpeg">
+                    <img src="{% getUrl '/assets/images/JPG/redPhone.jpg' | resize({ width: 1084, height: 1156, position: 'left' }) | jpeg %}" alt="building" width="542" height="578" decoding="async">
                 </picture>
             </div>
         </div>

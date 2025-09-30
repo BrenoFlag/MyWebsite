@@ -6,8 +6,16 @@
   <component name="ChangeListManager">
     <list default="true" id="360ca197-0656-46f7-8790-98f7182eef98" name="Changes" comment="moved nightChicago.JPG ro a different folder.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_includes/layouts/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/_includes/layouts/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/me/Favorite-Aragon-Photo-Breno-Gonçalves bandeira-2025-09-25-2.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/me/BrenoAboutUs.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/me/Favorite-Aragon-Photo-Breno-Gonçalves bandeira-2025-09-25-3.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/me/BrenoWebDesign.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/me/Favorite-Aragon-Photo-Breno-Gonçalves bandeira-2025-09-25-5.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/me/BrenoGoogleAdsPPC.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/me/Favorite-Aragon-Photo-Breno-Gonçalves bandeira-2025-09-25-6.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/me/BrenoSEO.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content/pages/FAQ.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/pages/FAQ.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content/pages/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/pages/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content/pages/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/pages/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content/pages/googlePpcAds.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/pages/googlePpcAds.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content/pages/seo.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/pages/seo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content/pages/webDesign.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/pages/webDesign.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +33,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Changes" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -56,29 +64,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Changes&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/zzfla/WebstormProjects/MyWebsite1/src/assets/images/me&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "Updates1",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "C:/Users/zzfla/WebstormProjects/MyWebsite1/src/assets/images/me",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "terminal",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\zzfla\WebstormProjects\MyWebsite1\src\assets\images\me" />
