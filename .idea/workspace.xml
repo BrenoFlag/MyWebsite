@@ -5,17 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="360ca197-0656-46f7-8790-98f7182eef98" name="Changes" comment="moved nightChicago.JPG ro a different folder.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/me/Favorite-Aragon-Photo-Breno-Gonçalves bandeira-2025-09-25-2.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/me/BrenoAboutUs.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/me/Favorite-Aragon-Photo-Breno-Gonçalves bandeira-2025-09-25-3.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/me/BrenoWebDesign.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/me/Favorite-Aragon-Photo-Breno-Gonçalves bandeira-2025-09-25-5.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/me/BrenoGoogleAdsPPC.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/me/Favorite-Aragon-Photo-Breno-Gonçalves bandeira-2025-09-25-6.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/me/BrenoSEO.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/pages/FAQ.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/pages/FAQ.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/pages/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/pages/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/pages/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/pages/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/pages/googlePpcAds.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/pages/googlePpcAds.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/pages/seo.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/pages/seo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/pages/webDesign.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/pages/webDesign.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

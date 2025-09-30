@@ -9,8 +9,6 @@ tags: "sitemap" # content/content.json will make sure that all pages in content/
 
 {% block head %}
     <!-- Critical styles are loaded first -->
-    <title>Responsive Website Design Company | Elevate Websites Design</title>
-    <meta name="description" content="We’re a responsive website design company specializing in hand-coded sites that load fast, rank higher, and convert more customers. Lightning-fast performance, SEO from day one, and designs that turn visitors into clients.">
     <!-- Critical styles are loaded first -->
     <link rel="stylesheet" href="/assets/css/critical.css"/>
 
@@ -164,7 +162,10 @@ tags: "sitemap" # content/content.json will make sure that all pages in content/
                 <a href="/webDesign/" class="cs-link">Read More</a>
                 <!--Background Image-->
                 <picture class="cs-background">
-                    <img loading="lazy" decoding="async" src="/assets/images/JPG/infinty.jpg" alt="Business owner updating website content with professional support" width="480" height="425">
+                    <source srcset="{% getUrl '/assets/images/JPG/infinty.jpg' | resize({ width: 480, height: 425}) | avif %}" type="image/avif">
+                    <source srcset="{% getUrl '/assets/images/JPG/infinty.jpg' | resize({ width: 480, height: 425}) | webp %}" type="image/webp">
+                    <source srcset="{% getUrl '/assets/images/JPG/infinty.jpg' | resize({ width: 480, height: 425}) | jpeg %}" type="image/jpeg">
+                    <img src="{% getUrl '/assets/images/JPG/infinty.jpg' | resize({ width: 480, height: 425}) | jpeg %}" alt="Business owner updating website content with professional support" width="480" height="425" loading="eager" decoding="async">
                 </picture>
             </li>
             <li class="cs-item">
@@ -178,7 +179,10 @@ tags: "sitemap" # content/content.json will make sure that all pages in content/
                 <a href="/webDesign/" class="cs-link">Read More</a>
                 <!--Background Image-->
                 <picture class="cs-background">
-                    <img loading="lazy" decoding="async" src="/assets/images/JPG/programming.jpg" alt="Developer creating custom hand-coded website for small business" width="480" height="425">
+                    <source srcset="{% getUrl '/assets/images/JPG/programming.jpg' | resize({ width: 480, height: 425}) | avif %}" type="image/avif">
+                    <source srcset="{% getUrl '/assets/images/JPG/programming.jpg' | resize({ width: 480, height: 425}) | webp %}" type="image/webp">
+                    <source srcset="{% getUrl '/assets/images/JPG/programming.jpg' | resize({ width: 480, height: 425}) | jpeg %}" type="image/jpeg">
+                    <img src="{% getUrl '/assets/images/JPG/programming.jpg' | resize({ width: 480, height: 425}) | jpeg %}" alt="Developer creating custom hand-coded website for small business" width="480" height="425" loading="eager" decoding="async">
                 </picture>
             </li>
             <li class="cs-item">
@@ -192,7 +196,10 @@ tags: "sitemap" # content/content.json will make sure that all pages in content/
                 <a href="/seo/" class="cs-link">Read More</a>
                 <!--Background Image-->
                 <picture class="cs-background">
-                    <img loading="lazy" decoding="async" src="/assets/images/JPG/SEO.jpg" alt="SEO strategy dashboard showing keyword rankings and analytics" width="480" height="425">
+                    <source srcset="{% getUrl '/assets/images/JPG/SEO.jpg' | resize({ width: 480, height: 425}) | avif %}" type="image/avif">
+                    <source srcset="{% getUrl '/assets/images/JPG/SEO.jpg' | resize({ width: 480, height: 425}) | webp %}" type="image/webp">
+                    <source srcset="{% getUrl '/assets/images/JPG/SEO.jpg' | resize({ width: 480, height: 425}) | jpeg %}" type="image/jpeg">
+                    <img src="{% getUrl '/assets/images/JPG/SEO.jpg' | resize({ width: 480, height: 425}) | jpeg %}" alt="SEO strategy dashboard showing keyword rankings and analytics" width="480" height="425" loading="eager" decoding="async">
                 </picture>
             </li>
             <li class="cs-item">
@@ -206,7 +213,10 @@ tags: "sitemap" # content/content.json will make sure that all pages in content/
                 <a href="/googlePpcAds/" class="cs-link">Read More</a>
                 <!--Background Image-->
                 <picture class="cs-background">
-                    <img loading="lazy" decoding="async" src="/assets/images/JPG/GooglePpcAds.jpg" alt="Google Ads dashboard with campaign performance results" width="480" height="425">
+                    <source srcset="{% getUrl '/assets/images/JPG/GooglePpcAds.jpg' | resize({ width: 480, height: 425}) | avif %}" type="image/avif">
+                    <source srcset="{% getUrl '/assets/images/JPG/GooglePpcAds.jpg' | resize({ width: 480, height: 425}) | webp %}" type="image/webp">
+                    <source srcset="{% getUrl '/assets/images/JPG/GooglePpcAds.jpg' | resize({ width: 480, height: 425}) | jpeg %}" type="image/jpeg">
+                    <img src="{% getUrl '/assets/images/JPG/GooglePpcAds.jpg' | resize({ width: 480, height: 425}) | jpeg %}" alt="Google Ads dashboard with campaign performance results" width="480" height="425" loading="eager" decoding="async">
                 </picture>
             </li>
             <li class="cs-item">
@@ -220,7 +230,10 @@ tags: "sitemap" # content/content.json will make sure that all pages in content/
                 <a href="/about/" class="cs-link">Read More</a>
                 <!--Background Image-->
                 <picture class="cs-background">
-                    <img loading="lazy" decoding="async" src="/assets/images/JPG/USATeritorry.jpg" alt="Map illustration showing local and nationwide business growth" width="480" height="425">
+                    <source srcset="{% getUrl '/assets/images/JPG/USATeritorry.jpg' | resize({ width: 480, height: 425}) | avif %}" type="image/avif">
+                    <source srcset="{% getUrl '/assets/images/JPG/USATeritorry.jpg' | resize({ width: 480, height: 425}) | webp %}" type="image/webp">
+                    <source srcset="{% getUrl '/assets/images/JPG/USATeritorry.jpg' | resize({ width: 480, height: 425}) | jpeg %}" type="image/jpeg">
+                    <img src="{% getUrl '/assets/images/JPG/USATeritorry.jpg' | resize({ width: 480, height: 425}) | jpeg %}" alt="Map illustration showing local and nationwide business growth" width="480" height="425" loading="eager" decoding="async">
                 </picture>
             </li>
         </ul>
