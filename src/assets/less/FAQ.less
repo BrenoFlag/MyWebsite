@@ -98,14 +98,15 @@
           color: var(--primary);
         }
 
-        .cs-icon {
+        .faq-chevron {
           transform: rotate(180deg);
         }
 
-        .cs-item-p {
-          height: auto;
-          padding-top: (8/16rem);
+        .faq-body {
           opacity: 1;
+          padding-top: (8/16rem);
+          padding-bottom: (24/16rem);
+          max-height: (960/16rem);
         }
       }
     }
@@ -120,8 +121,7 @@
       border: none;
       background: transparent;
       color: var(--headerColor);
-      display: flex;
-      justify-content: space-between;
+      display: block;
       position: relative;
       transition: background-color 0.3s, color 0.3s;
 
@@ -130,9 +130,22 @@
       }
     }
 
-    .cs-button-text {
-      width: 100%;
+    .faq-trigger-wrap {
       display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: (12/16rem);
+    }
+
+    .faq-title {
+      display: inline-block;
+      width: 100%;
+    }
+
+    .faq-icon-wrap {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
     }
 
     .cs-item-p {
@@ -140,14 +153,8 @@
       line-height: 1.5em;
       font-weight: 400;
       width: 100%;
-      height: 0;
       margin: 0;
-      padding: 0;
-      opacity: 0;
       color: var(--bodyTextColor);
-      /* clips the text so it doesn't show up */
-      overflow: hidden;
-      transition: opacity 0.3s;
     }
 
     .cs-icon {
@@ -155,6 +162,20 @@
       height: (24/16rem);
       display: block;
       transition: transform 0.3s;
+    }
+
+    .faq-body {
+      padding: 0 (24/16rem) 0;
+      display: grid;
+      gap: (8/16rem);
+      overflow: hidden;
+      max-height: 0;
+      opacity: 0;
+      transition: max-height 0.3s ease, opacity 0.3s ease, padding-top 0.3s ease, padding-bottom 0.3s ease;
+    }
+
+    .faq-body ul {
+      padding-left: (20/16rem);
     }
 
     .cs-picture {
