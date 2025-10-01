@@ -104,9 +104,8 @@
 
         .faq-body {
           opacity: 1;
-          padding-top: (8/16rem);
-          padding-bottom: (24/16rem);
-          max-height: (960/16rem);
+          padding: 0 (24/16rem) (24/16rem);
+          max-height: (1000/16rem);
         }
       }
     }
@@ -165,13 +164,13 @@
     }
 
     .faq-body {
-      padding: 0 (24/16rem) 0;
+      padding: 0 (24/16rem) (24/16rem);
       display: grid;
       gap: (8/16rem);
       overflow: hidden;
       max-height: 0;
       opacity: 0;
-      transition: max-height 0.3s ease, opacity 0.3s ease, padding-top 0.3s ease, padding-bottom 0.3s ease;
+      transition: max-height 0.3s ease, opacity 0.2s ease;
     }
 
     .faq-body ul {

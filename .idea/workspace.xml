@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="360ca197-0656-46f7-8790-98f7182eef98" name="Changes" comment="moved nightChicago.JPG ro a different folder.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/js/FAQ.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/js/FAQ.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/less/FAQ.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/less/FAQ.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/pages/FAQ.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/pages/FAQ.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
