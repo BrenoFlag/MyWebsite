@@ -6,6 +6,19 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
+    const addMaxHeightListener = (element, callback) => {
+        const handler = (event) => {
+            if (event.propertyName !== "max-height") {
+                return;
+            }
+
+            element.removeEventListener("transitionend", handler);
+            callback();
+        };
+
+        element.addEventListener("transitionend", handler);
+    };
+
     const collapseItem = (item) => {
         const trigger = item.querySelector(".faq-trigger");
         if (!trigger || trigger.getAttribute("aria-expanded") === "false") {
@@ -35,18 +48,10 @@ document.addEventListener("DOMContentLoaded", () => {
             body.style.maxHeight = "0px";
         });
 
-        body.addEventListener(
-            "transitionend",
-            (event) => {
-                if (event.propertyName !== "max-height") {
-                    return;
-                }
-
-                body.hidden = true;
-                body.style.removeProperty("max-height");
-            },
-            { once: true }
-        );
+        addMaxHeightListener(body, () => {
+            body.hidden = true;
+            body.style.removeProperty("max-height");
+        });
     };
 
     const expandItem = (item) => {
@@ -77,17 +82,9 @@ document.addEventListener("DOMContentLoaded", () => {
             body.style.maxHeight = `${targetHeight}px`;
         });
 
-        body.addEventListener(
-            "transitionend",
-            (event) => {
-                if (event.propertyName !== "max-height") {
-                    return;
-                }
-
-                body.style.removeProperty("max-height");
-            },
-            { once: true }
-        );
+        addMaxHeightListener(body, () => {
+            body.style.removeProperty("max-height");
+        });
     };
 
     for (const item of faqItems) {
@@ -108,17 +105,9 @@ document.addEventListener("DOMContentLoaded", () => {
             if (!prefersReducedMotion) {
                 body.style.maxHeight = `${body.scrollHeight}px`;
 
-                body.addEventListener(
-                    "transitionend",
-                    (event) => {
-                        if (event.propertyName !== "max-height") {
-                            return;
-                        }
-
-                        body.style.removeProperty("max-height");
-                    },
-                    { once: true }
-                );
+                addMaxHeightListener(body, () => {
+                    body.style.removeProperty("max-height");
+                });
             }
         } else {
             item.classList.remove("active");
