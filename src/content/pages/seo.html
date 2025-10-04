@@ -7,6 +7,16 @@ permalink: "/SEO/"
 {% extends "layouts/base.html" %}
 
 {% block head %}
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XZ5SCZV9BF"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-XZ5SCZV9BF');
+</script>
+
 <link rel="preload" as="image" href="{% getUrl '/assets/images/blackAndWhiteChicago1.JPG' | resize({ width: 640, height: 600, position: 'bottom'}) | avif %}"/>
 <link rel="preload" as="image" href="{% getUrl '/assets/images/blackAndWhiteChicago1.JPG' | resize({ width: 576, height: 640, position: 'bottom' }) | avif %}"/>
 
