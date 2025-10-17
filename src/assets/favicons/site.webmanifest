@@ -1,15 +1,15 @@
 {
-  "name": "Starter Kit",
-  "short_name": "Starter Kit",
+  "name": "ElevateWebsiteDesign",
+  "short_name": "MySite",
   "icons": [
     {
-      "src": "/assets/favicons/web-app-manifest-192x192.png",
+      "src": "/src/assets/favicons/web-app-manifest-192x192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "maskable"
     },
     {
-      "src": "/assets/favicons/web-app-manifest-512x512.png",
+      "src": "/src/assets/favicons/web-app-manifest-512x512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"

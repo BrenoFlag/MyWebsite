@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="360ca197-0656-46f7-8790-98f7182eef98" name="Changes" comment="moved nightChicago.JPG ro a different folder.">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_9_26_25,_6_13 PM_[Changes]1/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_9_26_25__6_13PM__Changes_1.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +64,7 @@
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Updates1&quot;,
     &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/zzfla/WebstormProjects/MyWebsite1/src/assets/images/me&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -135,6 +133,8 @@
       <workItem from="1758915146578" duration="8000" />
       <workItem from="1759088834206" duration="330000" />
       <workItem from="1759678864963" duration="598000" />
+      <workItem from="1760054967848" duration="713000" />
+      <workItem from="1760590545250" duration="692000" />
     </task>
     <task id="LOCAL-00001" summary="moved nightChicago.JPG ro a different folder.">
       <option name="closed" value="true" />
