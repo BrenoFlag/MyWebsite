@@ -20,7 +20,7 @@ permalink: "/contact/"
 
     <div id="banner-310">
         <div class="cs-container">
-            <span class="cs-int-title">Contact Us</span>
+            <span class="cs-int-title">Get in Touch with Elevate Websites Design. Tell us about your business goals and we’ll map the fastest path to a high-performing, hand-coded website that ranks and converts.</span>
             <div class="cs-breadcrumbs">
                 <a href="/" class="cs-link">Home</a>
                 <a href="/contact/" class="cs-link cs-active">Contact Us</a>
@@ -52,8 +52,8 @@ permalink: "/contact/"
         <div class="cs-container">
             <div class="cs-left-section">
                 <div class="cs-content">
-                    <span class="cs-topper">Contact</span>
-                    <h2 class="cs-title">Get in Touch</h2>
+                    <span class="cs-topper">Send a Message</span>
+                    <h2 class="cs-title">Use the form to request a quote, ask a question, or book a free consultation. We respond quickly—usually within one business day.</h2>
                 </div>
                 <form id="cs-form-265" name="Contact Form" method="post" netlify>
                     <input type="hidden" name="form-name" value="Contact Form">
@@ -77,24 +77,24 @@ permalink: "/contact/"
                         Message
                         <textarea required name="Message" id="message-265" placeholder="Write message..."></textarea>
                     </label>
-                    <button class="cs-button-solid cs-submit" type="submit">Submit Message</button>
+                    <button class="cs-button-solid cs-submit" type="submit">Get Started Today</button>
                 </form>
             </div>
             <div class="cs-right-section">
                 <!--Email-->
-                <span class="cs-header">Email</span>
+                <span class="cs-header">Call or Email</span>
                 <a class="cs-link" href="mailto:{{ client.email }}">{{ client.email }}</a>
                 <!--Phone-->
-                <span class="cs-header">Phone</span>
                 <a class="cs-link" href="tel:{{ client.phoneForTel }}">{{ client.phoneFormatted }}</a>
                 <!--Address-->
-                <span class="cs-header">Address</span>
+                <span class="cs-header">Our Location</span>
                 <a class="cs-link" href="{{ client.address.mapLink }}">
                     <!--{{ client.address.lineOne }}, <br>
                     {{ client.address.lineTwo }}, <br> -->
-                    {{ client.address.city }}, {{ client.address.state }}
-                    {{ client.address.zip }}
+                    Based in Atlanta, proudly working with small businesses across the United States.
                 </a>
+                <span class="cs-header">Ready When You Are</span>
+                <a class="cs-link" href="/contact/">Get Started Today</a>
                 <!-- Background Image-->
                 <picture class="cs-bg-picture">
                     <!--Mobile Image-->
