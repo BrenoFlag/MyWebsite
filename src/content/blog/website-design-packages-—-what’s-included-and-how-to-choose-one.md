@@ -8,8 +8,9 @@ author: Breno Bandeira
 date: 2025-10-18T16:49:00.000-04:00
 tags:
   - post
-image: /assets/images/blog/landing.jpg
-imageAlt: Something
+image: /assets/images/blog/img_2404.jpeg
+imageAlt: Laptop on a modern workspace showing a professional web design layout,
+  representing Elevate’s website design packages.
 ---
 <script type="application/ld+json">
 {
