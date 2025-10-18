@@ -1,6 +1,7 @@
 # Replace the "backend" object below with the snippet from DecapBridge. We need something here to get the CMS to work locally, but this alone won't work in production
 backend:
     name: git-gateway
+    branch: main
 
 # Keep this to allow you to edit the cms locally
 local_backend: true
