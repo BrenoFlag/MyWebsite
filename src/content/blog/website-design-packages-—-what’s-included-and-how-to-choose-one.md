@@ -83,107 +83,125 @@ imageAlt: Laptop on a modern workspace showing a professional web design layout,
 </script>
 <article class="blog-post">
 
+<article class="blog-post">
+
   <header>
     <h1>Website Design Packages — What’s Included and How to Choose One</h1>
-    <p class="intro">
-      At Elevate Websites Design, we’ve seen firsthand how confusing it can be for small business owners to compare website design packages.
-      Some companies throw around impressive words, others hide the real costs, and most rely on the same drag-and-drop templates.
-      After years of building hand-coded websites for local businesses here in Atlanta and across the country, we’ve learned what truly makes
-      a web design package worth your investment. In this guide, we’ll walk through what’s included, how much you should expect to pay,
-      and how to choose the right package for your goals — without the jargon.
+    <p>
+      At Elevate Websites Design, we started with a simple mission: to make professional, high-performing websites accessible to small businesses.
+      The web design world is often filled with confusing packages, hidden costs, and slow-loading template sites.
+      We built Elevate to change that — by offering fast, secure, hand-coded websites that are easy to maintain and designed to rank.
+    </p>
+    <p>
+      In this guide, we’ll break down what’s included in our website design packages, how pricing works, and how to choose the right setup for your business goals — all without the jargon.
     </p>
   </header>
 
   <section id="cost">
     <h2>How Much Does a Small Business Website Cost?</h2>
     <p>
-      Pricing can feel like a mystery in the web design world, but it doesn’t have to be.
-      Over the past few years, we’ve built dozens of small business websites — from simple landing pages to multi-page service sites —
-      and the average cost lands between <strong>$2,000 and $3,000</strong> for a custom, hand-coded build.
+      In building websites for small businesses, we noticed that pricing can feel like a mystery — but it doesn’t have to be.
+      The average small business website falls between <strong>$2,000 and $3,000</strong> for a custom, hand-coded build.
     </p>
     <p>
-      At Elevate, our pricing is transparent:<br>
-      <strong>Lump-Sum Plan</strong> — starts at $2,500 + $25/month hosting and maintenance.<br>
-      <strong>Monthly Plan</strong> — $150/month with no upfront cost.
+      At Elevate, our pricing is transparent: you can choose between a one-time payment or a monthly plan that fits your budget.
+      Both include built-in SEO, hosting, maintenance, and direct support from the developer who builds your site.
     </p>
     <p>
-      Both include unlimited edits, built-in SEO, and direct support from the same developer who built your site.
-      Template-based sites from builders like Wix or WordPress might seem cheaper upfront but often require constant plugin updates
-      and struggle to perform well in search rankings — which ends up costing more long-term.
+      Template-based sites might seem cheaper upfront but often require plugin updates and ongoing fixes that add up quickly.
+      We design ours to perform beautifully for years without surprise costs.
     </p>
   </section>
 
-  <section id="inclusions">
+  <section id="included">
     <h2>What’s Usually Included in a Website Design Package</h2>
     <p>
-      A true website design package isn’t just a few pages with your logo — it’s a complete digital foundation for your business.
-      Every Elevate site begins with a personalized consultation and ends with a site that’s ready to grow with you.
+      A true website design package is more than a few pages — it’s the foundation of your online presence.
+      Every Elevate site starts with strategy and ends with a high-performing website that’s ready to grow with you:
     </p>
     <ul>
-      <li><strong>Custom Design &amp; Development</strong> – Each site is hand-coded from scratch to fit your brand’s style and goals.</li>
-      <li><strong>Built-In SEO Setup</strong> – Structured pages, fast-loading HTML, optimized meta descriptions, and keyword-based headings.</li>
-      <li><strong>Performance Optimization</strong> – Our code is written for speed; sites regularly score 95+ on Google PageSpeed.</li>
-      <li><strong>Content Integration</strong> – Copy, images, and brand assets formatted for consistency.</li>
-      <li><strong>Hosting &amp; Launch</strong> – Secure static hosting with near-instant load times and zero database vulnerabilities.</li>
-      <li><strong>Maintenance &amp; Unlimited Edits</strong> – Request updates anytime — no ticket systems, no waiting.</li>
+      <li><strong>Custom Design and Development</strong> – Each site is hand-coded for your brand and business goals.</li>
+      <li><strong>SEO Setup</strong> – We structure pages for Google indexing using clean HTML and optimized metadata.</li>
+      <li><strong>Performance Optimization</strong> – Sites are engineered for speed and security.</li>
+      <li><strong>Content Integration</strong> – We style your copy, photos, and branding to look polished and consistent.</li>
+      <li><strong>Hosting and Launch</strong> – Deployed on secure, static hosting with near-perfect uptime.</li>
+      <li><strong>Maintenance and Support</strong> – Ongoing assistance and edits available whenever you need them.</li>
     </ul>
-    <p>
-      This mix of design precision and technical optimization means your site doesn’t just look good —
-      it performs, ranks, and converts better than template alternatives.
-    </p>
+    <p>This approach ensures your website looks great, loads instantly, and grows with your business.</p>
   </section>
 
   <section id="custom-vs-templates">
     <h2>Custom-Coded vs Templates: Speed, Security, and SEO</h2>
     <p>
-      Here’s a simple truth we’ve learned from years of coding: templates save time upfront but cost performance later.
-      When you hand-code a website, you remove unnecessary bloat — the scripts and plugins that slow down pages and open security holes.
+      Templates are convenient, but hand-coded websites outperform them in every category that matters — speed, security, and SEO.
+      By writing every line of code ourselves, we eliminate the clutter that slows websites down.
+      Static sites like ours have no databases to hack and load nearly instantly on any device.
     </p>
     <p>
-      Static, hand-coded websites don’t rely on databases, which makes them nearly impossible to hack and dramatically faster.
-      One of our clients, a local photographer, saw load times drop from 4.2 s to under 1 s after switching to our static setup.
-      That’s the kind of improvement Google notices — and rewards.
+      For example, one of our recent projects for a local photographer cut load times from over four seconds to less than one.
+      That performance difference directly improves search rankings and keeps visitors engaged.
     </p>
   </section>
 
-  <section id="tiers">
-    <h2>Package Tiers Explained</h2>
+  <section id="packages">
+    <h2>Our Website Design Packages</h2>
+    <p>
+      We keep things simple — two main website design packages built around how you prefer to pay, plus a few flexible add-on packages so you only pay for what you need.
+    </p>
+
+    <h3>Core Packages</h3>
     <ul>
-      <li><strong>Basic Package</strong> – Perfect for startups and solo professionals who need a clean online presence.</li>
-      <li><strong>Standard Package</strong> – Adds multiple service pages, SEO integration, and blog setup for growing businesses.</li>
-      <li><strong>Advanced Package</strong> – Includes custom integrations, animations, or scalable architecture for established brands.</li>
+      <li><strong>Custom design and development</strong></li>
+      <li><strong>Fast, secure, and mobile-friendly websites</strong></li>
+      <li><strong>SEO-ready and optimized for performance</strong></li>
+      <li><strong>Secure hosting already included</strong></li>
+      <li><strong>Risk-free satisfaction guarantee</strong> — if we can’t design a site you’re fully satisfied with, we’ll refund you before launch.</li>
     </ul>
+
     <p>
-      No matter the tier, you’ll always receive direct communication with your developer, transparent pricing,
-      and performance equal to enterprise-level builds.
+      <strong>Lump-Sum Package</strong> – A one-time investment of <strong>$2,500</strong> + $25/month for hosting and maintenance.
+      This option is perfect for businesses that want to invest upfront and minimize long-term costs while keeping professional hosting and maintenance included.
+    </p>
+
+    <p>
+      <strong>Monthly Package</strong> – $150/month with no upfront cost and a <strong>one-year commitment</strong>.
+      Includes the same premium, hand-coded website, hosting, maintenance, and support — ideal for new businesses that want predictable payments and ongoing care.
+    </p>
+
+    <h3>Add-On Packages</h3>
+    <ul>
+      <li><strong>Unlimited Edits Add-On</strong> – $50/month for small copy or image changes anytime — no hourly charges.</li>
+      <li><strong>Blog Integration Add-On</strong> – $250 one-time fee to add a self-managed blog accessible from anywhere.</li>
+      <li><strong>Monthly SEO Add-On</strong> – Custom pricing based on the number of posts or keywords targeted per month.</li>
+      <li><strong>Extra Pages Add-On</strong> – $100 per additional page (basic internal pages); custom-quoted for advanced page designs.</li>
+    </ul>
+
+    <p>
+      This structure gives you flexibility and transparency — you’ll always know exactly what you’re paying for, and every feature is built for long-term performance.
     </p>
   </section>
 
-  <section id="how-to-choose">
+  <section id="choose">
     <h2>How to Choose the Right Package for Your Business</h2>
     <p>
-      The right package depends on your goals, not just your budget. Start by asking yourself:
+      Choosing the right website design package starts with understanding your goals.
+      If you need a simple, fast site to establish your presence, the monthly plan is a great start.
+      If you prefer to pay once and reduce monthly costs, the lump-sum package offers lasting value.
     </p>
-    <ol>
-      <li>What’s the main purpose of my website — leads, visibility, or sales?</li>
-      <li>How many pages or features will I need to achieve that?</li>
-      <li>Do I want a long-term partner to handle SEO and updates?</li>
-    </ol>
     <p>
-      We walk every client through these questions during a free consultation. Our goal isn’t to upsell —
-      it’s to match you with the right solution. When your website fits your goals, it becomes an asset, not an expense.
+      Think about what matters most: flexibility, ownership, or growth potential.
+      During your free consultation, we’ll walk you through each option so you can make the right choice with confidence.
     </p>
   </section>
 
   <section id="redesign">
     <h2>Already Have a Site? When a Redesign Makes More Sense</h2>
     <p>
-      If your current site loads slowly, looks outdated, or isn’t showing up on Google, it might be time for a redesign.
-      Rebuilding your site using our hand-coded framework eliminates technical debt and future-proofs your online presence.
+      If your website feels outdated, loads slowly, or struggles to show up on Google, it may be time for a redesign.
+      Rebuilding your site using our hand-coded framework eliminates unnecessary plugins, improves security, and boosts performance.
     </p>
     <p>
-      After every redesign, we test your site across devices, measure load times, and validate SEO structure —
-      so you launch with measurable improvements from day one.
+      After every redesign, we test load times, responsiveness, and SEO structure so your new site launches with measurable improvements from day one.
     </p>
   </section>
 
@@ -191,11 +209,11 @@ imageAlt: Laptop on a modern workspace showing a professional web design layout,
     <h2>FAQs</h2>
     <div class="faq-item">
       <h3>What’s the average cost of a small business website?</h3>
-      <p>Most small business sites we build fall between $2,000 – $3,000. Our $150/month plan offers the same quality with zero upfront payment.</p>
+      <p>Most small business sites we build fall between $2,000 and $3,000. Our $150/month plan offers the same quality with zero upfront payment.</p>
     </div>
     <div class="faq-item">
       <h3>What’s included in a standard website design package?</h3>
-      <p>Custom design, responsive hand-coded development, SEO setup, hosting, maintenance, and unlimited edits.</p>
+      <p>Custom design, responsive hand-coded development, SEO setup, hosting, maintenance, and ongoing support.</p>
     </div>
     <div class="faq-item">
       <h3>Do website design packages include SEO?</h3>
@@ -207,15 +225,15 @@ imageAlt: Laptop on a modern workspace showing a professional web design layout,
     </div>
     <div class="faq-item">
       <h3>How long does a website project take?</h3>
-      <p>Most projects take 2–4 weeks depending on content readiness and complexity. Communication is direct, so timelines stay predictable.</p>
+      <p>Most projects take 2–4 weeks depending on content readiness and scope. Communication is direct, so timelines stay predictable.</p>
     </div>
   </section>
 
   <section id="cta">
     <h2>Ready to Elevate Your Online Presence?</h2>
     <p>
-      Your website should do more than exist — it should elevate your business. Every Elevate project combines design precision
-      with technical depth, delivering websites that load instantly, stay secure, and rank naturally on Google.
+      Your website should do more than exist — it should elevate your business.
+      Every project we take on reflects the same mission that started Elevate: making custom, high-performing websites simple and accessible for small businesses.
     </p>
     <p>
       <a href="https://elevatewebsitesdesign.com/contact" class="cta-button">Schedule your free consultation</a>
@@ -223,5 +241,7 @@ imageAlt: Laptop on a modern workspace showing a professional web design layout,
     </p>
     <p class="author">— Written by Breno Bandeira, Founder &amp; Lead Developer at Elevate Websites Design (Atlanta, GA)</p>
   </section>
+
+</article>
 
 </article>
