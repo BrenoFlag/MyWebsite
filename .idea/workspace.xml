@@ -6,17 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="360ca197-0656-46f7-8790-98f7182eef98" name="Changes" comment="moved nightChicago.JPG ro a different folder.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_includes/sections/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/_includes/sections/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/favicons/apple-touch-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/favicons/favicon-96x96.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/favicons/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/favicons/favicon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/favicons/site.webmanifest" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/favicons/web-app-manifest-192x192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/favicons/web-app-manifest-512x512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/blog/acuti-modo.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/blog/canitiem-saxa.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/blog/sucos-creati.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +64,7 @@
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;addingBlog&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/zzfla/WebstormProjects/MyWebsite1/src/assets/images/me&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -144,6 +133,7 @@
       <workItem from="1758915146578" duration="8000" />
       <workItem from="1759088834206" duration="330000" />
       <workItem from="1759678864963" duration="598000" />
+      <workItem from="1761171692150" duration="84000" />
     </task>
     <task id="LOCAL-00001" summary="moved nightChicago.JPG ro a different folder.">
       <option name="closed" value="true" />
