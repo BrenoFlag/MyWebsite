@@ -1,0 +1,85 @@
+---
+title: "FAQ | Web Design & SEO Atlanta | Elevate Websites Design"
+description: "Get answers about pricing, timelines, mobile optimization, SEO, and more. Hand-coded, fast, secure websites for small businesses in Atlanta and nationwide."
+permalink: "/Onboarding/"
+---
+
+{% extends "layouts/base.html" %}
+
+{% block head %}
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XZ5SCZV9BF"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-XZ5SCZV9BF');
+</script>
+
+<link rel="preload" as="image" href="{% getUrl '/assets/images/blackAndWhiteChicago1.JPG' | resize({ width: 640, height: 600, position: 'bottom'}) | avif %}"/>
+<link rel="preload" as="image" href="{% getUrl '/assets/images/blackAndWhiteChicago1.JPG' | resize({ width: 576, height: 640, position: 'bottom' }) | avif %}"/>
+<link rel="stylesheet" href="/assets/css/FAQ.css">
+<script defer src="/assets/js/FAQ.js"></script>
+{% endblock %}
+
+{% block body %}
+
+
+<!-- ============================================ -->
+<!--                   Banner                     -->
+<!-- ============================================ -->
+
+<div id="banner-310">
+    <div class="cs-container">
+        <span class="cs-int-title">Onboarding Questionnaire</span>
+        <div class="cs-breadcrumbs">
+            <a href="/" class="cs-link">Home</a>
+            <a href="/onboarding/" class="cs-link cs-active">Onboarding</a>
+        </div>
+    </div>
+    <!--Background Image-->
+    <picture class="cs-background">
+        <!--Mobile Image-->
+        <source media="(max-width: 600px)" srcset="{% getUrl '/assets/images/blackAndWhiteChicago1.JPG' | resize({ width: 640, height: 600, position: 'bottom'}) | avif %}" type="image/avif">
+        <source media="(max-width: 600px)" srcset="{% getUrl '/assets/images/blackAndWhiteChicago1.JPG' | resize({ width: 640, height: 600, position: 'bottom'}) | webp %}" type="image/webp">
+        <source media="(max-width: 600px)" srcset="{% getUrl '/assets/images/blackAndWhiteChicago1.JPG' | resize({ width: 640, height: 600, position: 'bottom'}) | jpeg %}" type="image/jpeg">
+        <!--Tablet Image-->
+        <source media="(max-width: 1024px)" srcset="{% getUrl '/assets/images/blackAndWhiteChicago1.JPG' | resize({ width: 2048, height: 942, position: 'bottom'}) | avif %}" type="image/avif">
+        <source media="(max-width: 1024px)" srcset="{% getUrl '/assets/images/blackAndWhiteChicago1.JPG' | resize({ width: 2048, height: 942, position: 'bottom'}) | webp %}" type="image/webp">
+        <source media="(max-width: 1024px)" srcset="{% getUrl '/assets/images/blackAndWhiteChicago1.JPG' | resize({ width: 2048, height: 942, position: 'bottom'}) | jpeg %}" type="image/jpeg">
+        <!--Desktop Image-->
+        <source media="(min-width: 1024px)" srcset="{% getUrl '/assets/images/blackAndWhiteChicago1.JPG' | resize({ width: 2500, height: 628, position: 'bottom'}) | avif %}" type="image/avif">
+        <source media="(min-width: 1024px)" srcset="{% getUrl '/assets/images/blackAndWhiteChicago1.JPG' | resize({ width: 2500, height: 628, position: 'bottom'}) | webp %}" type="image/webp">
+        <source media="(min-width: 1024px)" srcset="{% getUrl '/assets/images/blackAndWhiteChicago1.JPG' | resize({ width: 2500, height: 628, position: 'bottom'}) | jpeg %}" type="image/jpeg">
+        <img src="{% getUrl '/assets/images/blackAndWhiteChicago1.JPG' | resize({ width: 2500, height: 628, position: 'bottom'}) | jpeg %}" alt="Atlanta" width="1920" height="482" loading="eager" decoding="async">
+    </picture>
+</div>
+
+
+<!-- ============================================ -->
+<!--                   Form                       -->
+<!-- ============================================ -->
+
+
+
+<iframe
+        id="JotFormIFrame-253087376735063"
+        title="ELEVATE WEBSITES DESIGN — ONBOARDING QUESTIONNAIRE"
+        onload="window.parent.scrollTo(0,0)"
+        allowtransparency="true"
+        allow="geolocation; microphone; camera; fullscreen; payment"
+        src="https://form.jotform.com/253087376735063"
+        frameborder="0"
+        style="min-width:100%;max-width:100%;height:539px;border:none;"
+        scrolling="no"
+>
+</iframe>
+<script src='https://cdn.jotfor.ms/s/umd/latest/for-form-embed-handler.js'></script>
+<script>window.jotformEmbedHandler("iframe[id='JotFormIFrame-253087376735063']", "https://form.jotform.com/")</script>
+
+
+
+{% include 'sections/cta.html' %}
+
+{% endblock %}
