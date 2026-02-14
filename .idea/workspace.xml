@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="360ca197-0656-46f7-8790-98f7182eef98" name="Changes" comment="moved nightChicago.JPG ro a different folder." />
+    <list default="true" id="360ca197-0656-46f7-8790-98f7182eef98" name="Changes" comment="moved nightChicago.JPG ro a different folder.">
+      <change afterPath="$PROJECT_DIR$/src/content/pages/privacy-policy.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/content/pages/terms.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,7 +25,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="addingBlog" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -62,7 +66,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "updates",
     "junie.onboarding.icon.badge.shown": "true",
     "last_opened_file_path": "/Users/brenobandeira/WebstormProjects/MyWebsite1/src/content/pages",
     "node.js.detected.package.eslint": "true",
@@ -132,6 +136,13 @@
       <workItem from="1759088834206" duration="330000" />
       <workItem from="1759678864963" duration="598000" />
       <workItem from="1761171692150" duration="84000" />
+      <workItem from="1762633068930" duration="323000" />
+      <workItem from="1767164865117" duration="1037000" />
+      <workItem from="1767902171883" duration="8000" />
+      <workItem from="1768666223644" duration="611000" />
+      <workItem from="1770228061442" duration="616000" />
+      <workItem from="1770664217672" duration="26000" />
+      <workItem from="1771040606030" duration="310000" />
     </task>
     <task id="LOCAL-00001" summary="moved nightChicago.JPG ro a different folder.">
       <option name="closed" value="true" />

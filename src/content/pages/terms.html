@@ -1,0 +1,94 @@
+---
+title: "Terms | Elevate Websites Design"
+permalink: "/terms/"
+---
+
+{% extends "layouts/base.html" %}
+
+{% block head %}
+
+<link rel="preload" as="image" href="{% getUrl '/assets/images/blackAndWhiteChicago1.JPG' | resize({ width: 640, height: 600, position: 'bottom'}) | avif %}"/>
+<link rel="preload" as="image" href="{% getUrl '/assets/images/blackAndWhiteChicago1.JPG' | resize({ width: 576, height: 640, position: 'bottom' }) | avif %}"/>
+<link rel="stylesheet" href="/assets/css/about.css">
+<script defer src="/assets/js/about.js"></script>
+{% endblock %}
+
+{% block body %}
+
+<!-- /terms (Terms & Conditions page content) -->
+<main id="main-content" class="legal-page">
+    <header>
+        <h1>Terms &amp; Conditions</h1>
+        <p><strong>Effective date:</strong> <span>[Insert Date]</span></p>
+    </header>
+
+    <section>
+        <p>
+            These Terms &amp; Conditions (“Terms”) govern your use of services provided by
+            <strong>Elevate Websites Design LLC</strong> (“we,” “us,” or “our”), including lead notification
+            features and related communications.
+        </p>
+    </section>
+
+    <section>
+        <h2>Lead Alerts SMS Program</h2>
+        <p><strong>Program name:</strong> Elevate Lead Alerts</p>
+        <p>
+            <strong>Program description:</strong> Operational notifications sent to business owners or authorized staff,
+            such as alerts for new website form submissions and support-related messages.
+        </p>
+        <ul>
+            <li><strong>Message frequency:</strong> varies based on lead volume and activity.</li>
+            <li><strong>Cost:</strong> message and data rates may apply.</li>
+            <li><strong>Opt-out:</strong> reply <strong>STOP</strong> to cancel.</li>
+            <li><strong>Help:</strong> reply <strong>HELP</strong> for help.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Consent</h2>
+        <p>
+            By providing a phone number and requesting SMS alerts during onboarding or service setup, you consent
+            to receive operational text messages related to your account and service notifications. Consent is not
+            required to make a purchase (unless your specific agreement states otherwise).
+        </p>
+    </section>
+
+    <section>
+        <h2>Acceptable Use</h2>
+        <p>
+            You agree not to use our services for unlawful, abusive, or harmful activities, including sending spam,
+            violating privacy rights, or misrepresenting identity.
+        </p>
+    </section>
+
+    <section>
+        <h2>Service Availability</h2>
+        <p>
+            We aim to provide reliable service, but delivery of messages may be impacted by carriers, third-party
+            providers, network conditions, and regulatory requirements. We do not guarantee uninterrupted delivery.
+        </p>
+    </section>
+
+    <section>
+        <h2>Privacy</h2>
+        <p>
+            Our Privacy Policy explains how we collect and use information. View it here:
+            <a href="/privacy-policy">Privacy Policy</a>.
+        </p>
+    </section>
+
+    <section>
+        <h2>Contact</h2>
+        <p>
+            For support, contact:<br />
+            <strong>Elevate Websites Design LLC</strong><br />
+            <span>[Insert Business Address]</span><br />
+            <a href="mailto:[Insert Support Email]">[Insert Support Email]</a><br />
+            <a href="tel:+1[InsertDigitsOnlyPhone]">[Insert Phone]</a>
+        </p>
+    </section>
+</main>
+
+
+{% endblock %}

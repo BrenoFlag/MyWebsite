@@ -1,0 +1,98 @@
+---
+title: "Privacy Policy | Elevate Websites Design"
+permalink: "/privacy-policy/"
+---
+
+{% extends "layouts/base.html" %}
+
+{% block head %}
+
+<link rel="preload" as="image" href="{% getUrl '/assets/images/blackAndWhiteChicago1.JPG' | resize({ width: 640, height: 600, position: 'bottom'}) | avif %}"/>
+<link rel="preload" as="image" href="{% getUrl '/assets/images/blackAndWhiteChicago1.JPG' | resize({ width: 576, height: 640, position: 'bottom' }) | avif %}"/>
+<link rel="stylesheet" href="/assets/css/about.css">
+<script defer src="/assets/js/about.js"></script>
+{% endblock %}
+
+{% block body %}
+
+<!-- /privacy-policy (Privacy Policy page content) -->
+<main id="main-content" class="legal-page">
+    <header>
+        <h1>Privacy Policy</h1>
+        <p><strong>Effective date:</strong> <span>[Insert Date]</span></p>
+    </header>
+
+    <section>
+        <p>
+            This Privacy Policy describes how <strong>Elevate Websites Design LLC</strong> (“we,” “us,” or “our”)
+            collects, uses, and shares information when you use our websites and services, including lead alert
+            notifications.
+        </p>
+    </section>
+
+    <section>
+        <h2>Information We Collect</h2>
+        <ul>
+            <li><strong>Contact information:</strong> name, phone number, email address.</li>
+            <li><strong>Lead/repair request details:</strong> device type/model and issue description (if submitted through a form we manage).</li>
+            <li><strong>Technical data:</strong> basic logs such as IP address and browser/device information (collected automatically by hosting providers).</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>How We Use Information</h2>
+        <ul>
+            <li>To deliver our services (e.g., routing form submissions, sending lead alerts, and providing support).</li>
+            <li>To communicate with you about requests, service updates, and account-related notifications.</li>
+            <li>To maintain security, prevent abuse, and improve reliability of our systems.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>SMS / Messaging</h2>
+        <p>
+            If you opt in to receive SMS notifications (such as operational lead alerts), you authorize us to send
+            messages to the phone number you provide. Message frequency varies. Message and data rates may apply.
+            You can opt out at any time by replying <strong>STOP</strong>. For help, reply <strong>HELP</strong>.
+        </p>
+    </section>
+
+    <section>
+        <h2>How We Share Information</h2>
+        <p>We do not sell your personal information.</p>
+        <p>
+            We may share information with service providers that help us operate our services (for example,
+            website hosting, form processing, automation tools, and SMS/telecom providers) strictly to deliver
+            the requested functionality.
+        </p>
+    </section>
+
+    <section>
+        <h2>Data Retention</h2>
+        <p>
+            We retain information only as long as necessary to provide services, comply with legal obligations,
+            resolve disputes, and enforce agreements.
+        </p>
+    </section>
+
+    <section>
+        <h2>Your Choices</h2>
+        <ul>
+            <li><strong>Opt out of SMS:</strong> reply STOP to any message.</li>
+            <li><strong>Request deletion:</strong> contact us using the information below.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Contact Us</h2>
+        <p>
+            Elevate Websites Design LLC<br />
+            <span>[Insert Business Address]</span><br />
+            <a href="mailto:[Insert Support Email]">[Insert Support Email]</a><br />
+            <a href="tel:+1[InsertDigitsOnlyPhone]">[Insert Phone]</a>
+        </p>
+    </section>
+</main>
+
+
+{% endblock %}
